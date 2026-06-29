@@ -1,0 +1,19 @@
+{
+  "" : {
+    "diagnostics" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Toast-Swift.build/Objects-normal/arm64/Toast-Swift-primary.dia",
+    "emit-module-dependencies" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Toast-Swift.build/Objects-normal/arm64/Toast-Swift-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Toast-Swift.build/Objects-normal/arm64/Toast-Swift-primary-emit-module.dia",
+    "pch" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Toast-Swift.build/Objects-normal/arm64/Toast-Swift-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Toast-Swift.build/Objects-normal/arm64/Toast-Swift-primary.swiftdeps"
+  },
+  "/Users/mac/Desktop/ArtSocialRp/Pods/Toast-Swift/Toast/Toast.swift" : {
+    "const-values" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Toast-Swift.build/Objects-normal/arm64/Toast.swiftconstvalues",
+    "dependencies" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Toast-Swift.build/Objects-normal/arm64/Toast.d",
+    "diagnostics" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Toast-Swift.build/Objects-normal/arm64/Toast.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/Toast-Swift.build/Objects-normal/arm64/Toast.o",
+    "llvm-bc" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Toast-Swift.build/Objects-normal/arm64/Toast.bc",
+    "object" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Toast-Swift.build/Objects-normal/arm64/Toast.o",
+    "swift-dependencies" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Toast-Swift.build/Objects-normal/arm64/Toast.swiftdeps",
+    "swiftmodule" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Toast-Swift.build/Objects-normal/arm64/Toast~partial.swiftmodule"
+  }
+}

@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5790411509097P40A3G4W4Z0 /* Pods_ArtHive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F286G28S10IT5Z27IU3900F /* Pods_ArtHive.framework */; };
+		AX9X100890L1G026QC571Q5A /* AH_UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = JE520AJ1201216119YJ2Y0U3 /* AH_UserView.swift */; };
+		FP6E43293Z4SMG4TTWY053E7 /* AH_VideoHeaderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = PN8EF6H7W06B744M25807Q10 /* AH_VideoHeaderController.swift */; };
+		JCT3J537D1F625809534T0X0 /* AH_ReleaseToolController.swift in Sources */ = {isa = PBXBuildFile; fileRef = YQP290190F843W2549FVU94O /* AH_ReleaseToolController.swift */; };
+		NNGWO4P6321S6UK5Z4D50702 /* AH_ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BHZQ16352N78R6395I08L176 /* AH_ChatView.swift */; };
+		NPAO693W84027A178DBMTP35 /* AH_ManagerObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CU01KXV28U708AF776020D29 /* AH_ManagerObject.swift */; };
+		PA1891G42112B72U16Y4LG05 /* AH_MessagePaintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EXMJZ55F2DLSPF3M98I205B8 /* AH_MessagePaintView.swift */; };
+		ST15N4EK6M620536724441W5 /* AH_EditVisualController.swift in Sources */ = {isa = PBXBuildFile; fileRef = UPP6CV7ME6SA400HJY6H6286 /* AH_EditVisualController.swift */; };
+		YFQ6JX4EO7Z3963DZG744A41 /* AH_ReportHeaderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = PPY409799879V14I80MM1441 /* AH_ReportHeaderController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0400Y987371XOZWI5F9VY071 /* ArtHive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtHive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		438C2246334BTZFK8Y3O6421 /* Pods-ArtHive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtHive.debug.xcconfig"; path = "Target Support Files/Pods-ArtHive/Pods-ArtHive.debug.xcconfig"; sourceTree = "<group>"; };
+		515M26MZ4E7P053JT6176O83 /* Pods-ArtHive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtHive.release.xcconfig"; path = "Target Support Files/Pods-ArtHive/Pods-ArtHive.release.xcconfig"; sourceTree = "<group>"; };
+		5F286G28S10IT5Z27IU3900F /* Pods_ArtHive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtHive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BHZQ16352N78R6395I08L176 /* AH_ChatView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = AH_ChatView.swift; sourceTree = "<group>"; };
+		CU01KXV28U708AF776020D29 /* AH_ManagerObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = AH_ManagerObject.swift; sourceTree = "<group>"; };
+		EXMJZ55F2DLSPF3M98I205B8 /* AH_MessagePaintView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = AH_MessagePaintView.swift; sourceTree = "<group>"; };
+		JE520AJ1201216119YJ2Y0U3 /* AH_UserView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = AH_UserView.swift; sourceTree = "<group>"; };
+		PN8EF6H7W06B744M25807Q10 /* AH_VideoHeaderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = AH_VideoHeaderController.swift; sourceTree = "<group>"; };
+		PPY409799879V14I80MM1441 /* AH_ReportHeaderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = AH_ReportHeaderController.swift; sourceTree = "<group>"; };
+		UPP6CV7ME6SA400HJY6H6286 /* AH_EditVisualController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = AH_EditVisualController.swift; sourceTree = "<group>"; };
+		YQP290190F843W2549FVU94O /* AH_ReleaseToolController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = AH_ReleaseToolController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		04816646G63K4KY0GQ984480 /* Exceptions for "ArtHive" folder in "ArtHive" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 04IP6B97E00A72P273G8P382 /* ArtHive */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		04852P84D9M22R084F712597 /* ArtHive */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				04816646G63K4KY0GQ984480 /* Exceptions for "ArtHive" folder in "ArtHive" target */,
+			);
+			path = ArtHive;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04ND7679OU7N4Y8M65U90S3J /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5790411509097P40A3G4W4Z0 /* Pods_ArtHive.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		042123515Y148K6V4SY3S640 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0400Y987371XOZWI5F9VY071 /* ArtHive.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04840T27G07L01L4TDF55U8R = {
+			isa = PBXGroup;
+			children = (
+				04852P84D9M22R084F712597 /* ArtHive */,
+				042123515Y148K6V4SY3S640 /* Products */,
+				3E7096I5052DP204I21UU072 /* Pods */,
+				57Z52G7MN836NP2766555482 /* Frameworks */,
+				YQ5CM4I81280UQE2PD303782 /* trending */,
+			);
+			sourceTree = "<group>";
+		};
+		3E7096I5052DP204I21UU072 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				438C2246334BTZFK8Y3O6421 /* Pods-ArtHive.debug.xcconfig */,
+				515M26MZ4E7P053JT6176O83 /* Pods-ArtHive.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		57Z52G7MN836NP2766555482 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F286G28S10IT5Z27IU3900F /* Pods_ArtHive.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		YQ5CM4I81280UQE2PD303782 /* trending */ = {
+			isa = PBXGroup;
+			children = (
+				EXMJZ55F2DLSPF3M98I205B8 /* AH_MessagePaintView.swift */,
+				UPP6CV7ME6SA400HJY6H6286 /* AH_EditVisualController.swift */,
+				PPY409799879V14I80MM1441 /* AH_ReportHeaderController.swift */,
+				CU01KXV28U708AF776020D29 /* AH_ManagerObject.swift */,
+				YQP290190F843W2549FVU94O /* AH_ReleaseToolController.swift */,
+				JE520AJ1201216119YJ2Y0U3 /* AH_UserView.swift */,
+				PN8EF6H7W06B744M25807Q10 /* AH_VideoHeaderController.swift */,
+				BHZQ16352N78R6395I08L176 /* AH_ChatView.swift */,
+			);
+			path = trending;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04IP6B97E00A72P273G8P382 /* ArtHive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04256P49N4CKI176B7WA1G9D /* Build configuration list for PBXNativeTarget "ArtHive" */;
+			buildPhases = (
+				163M309V6552916559EP0602 /* [CP] Check Pods Manifest.lock */,
+				046E914W3K356FIVD187Y153 /* Sources */,
+				04ND7679OU7N4Y8M65U90S3J /* Frameworks */,
+				042T7N1238CB2E61219Z4S76 /* Resources */,
+				6199777245M5FG768QOLC25Y /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				04852P84D9M22R084F712597 /* ArtHive */,
+			);
+			name = ArtHive;
+			productName = ArtHive;
+			productReference = 0400Y987371XOZWI5F9VY071 /* ArtHive.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0413TVM44132C7075RV8HMF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = AS_;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					04IP6B97E00A72P273G8P382 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+				};
+			};
+			buildConfigurationList = 04954408R37111F0396D5AD7 /* Build configuration list for PBXProject "ArtHive" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04840T27G07L01L4TDF55U8R;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 042123515Y148K6V4SY3S640 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04IP6B97E00A72P273G8P382 /* ArtHive */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		042T7N1238CB2E61219Z4S76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		163M309V6552916559EP0602 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArtHive-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6199777245M5FG768QOLC25Y /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArtHive/Pods-ArtHive-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArtHive/Pods-ArtHive-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArtHive/Pods-ArtHive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046E914W3K356FIVD187Y153 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				PA1891G42112B72U16Y4LG05 /* AH_MessagePaintView.swift in Sources */,
+				ST15N4EK6M620536724441W5 /* AH_EditVisualController.swift in Sources */,
+				YFQ6JX4EO7Z3963DZG744A41 /* AH_ReportHeaderController.swift in Sources */,
+				NPAO693W84027A178DBMTP35 /* AH_ManagerObject.swift in Sources */,
+				JCT3J537D1F625809534T0X0 /* AH_ReleaseToolController.swift in Sources */,
+				AX9X100890L1G026QC571Q5A /* AH_UserView.swift in Sources */,
+				FP6E43293Z4SMG4TTWY053E7 /* AH_VideoHeaderController.swift in Sources */,
+				NNGWO4P6321S6UK5Z4D50702 /* AH_ChatView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		042260342001T90E476UUK64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 438C2246334BTZFK8Y3O6421 /* Pods-ArtHive.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ArtHive/ArtHive.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HY3YA6W479;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ArtHive/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ArtHive;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera for video calls and profile pictures.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to your microphone for video calls.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to your photo library to set your profile picture.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ArtSocial.arthive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0450IKX484LO502W7C7V4K05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = HY3YA6W479;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04TDC3G7T6512D51T750714I /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 515M26MZ4E7P053JT6176O83 /* Pods-ArtHive.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ArtHive/ArtHive.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HY3YA6W479;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ArtHive/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ArtHive;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera for video calls and profile pictures.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to your microphone for video calls.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to your photo library to set your profile picture.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ArtSocial.arthive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		04TJFO43QZLS6400MS6642O4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = HY3YA6W479;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04256P49N4CKI176B7WA1G9D /* Build configuration list for PBXNativeTarget "ArtHive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042260342001T90E476UUK64 /* Debug */,
+				04TDC3G7T6512D51T750714I /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04954408R37111F0396D5AD7 /* Build configuration list for PBXProject "ArtHive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0450IKX484LO502W7C7V4K05 /* Debug */,
+				04TJFO43QZLS6400MS6642O4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0413TVM44132C7075RV8HMF1 /* Project object */;
+}

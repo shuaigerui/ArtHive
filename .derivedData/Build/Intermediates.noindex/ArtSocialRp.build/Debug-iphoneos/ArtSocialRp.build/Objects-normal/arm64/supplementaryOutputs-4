@@ -1,0 +1,30 @@
+{
+  "/Users/mac/Desktop/ArtSocialRp/ArtSocialRp/Moudles/Discover/AS_DiscoverDetailVC.swift" : {
+    "const-values" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_DiscoverDetailVC.swiftconstvalues",
+    "dependencies" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_DiscoverDetailVC.d",
+    "diagnostics" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_DiscoverDetailVC.dia",
+    "object" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_DiscoverDetailVC.o",
+    "swift-dependencies" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_DiscoverDetailVC.swiftdeps"
+  },
+  "/Users/mac/Desktop/ArtSocialRp/ArtSocialRp/Moudles/Discover/AS_DiscoverVC.swift" : {
+    "const-values" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_DiscoverVC.swiftconstvalues",
+    "dependencies" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_DiscoverVC.d",
+    "diagnostics" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_DiscoverVC.dia",
+    "object" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_DiscoverVC.o",
+    "swift-dependencies" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_DiscoverVC.swiftdeps"
+  },
+  "/Users/mac/Desktop/ArtSocialRp/ArtSocialRp/Moudles/Discover/Views/AS_DiscoverReleaseView.swift" : {
+    "const-values" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_DiscoverReleaseView.swiftconstvalues",
+    "dependencies" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_DiscoverReleaseView.d",
+    "diagnostics" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_DiscoverReleaseView.dia",
+    "object" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_DiscoverReleaseView.o",
+    "swift-dependencies" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_DiscoverReleaseView.swiftdeps"
+  },
+  "/Users/mac/Desktop/ArtSocialRp/ArtSocialRp/Moudles/Discover/Views/AS_DiscoverTimeCell.swift" : {
+    "const-values" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_DiscoverTimeCell.swiftconstvalues",
+    "dependencies" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_DiscoverTimeCell.d",
+    "diagnostics" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_DiscoverTimeCell.dia",
+    "object" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_DiscoverTimeCell.o",
+    "swift-dependencies" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_DiscoverTimeCell.swiftdeps"
+  }
+}

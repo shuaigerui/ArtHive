@@ -1,0 +1,23 @@
+{
+  "/Users/mac/Desktop/ArtSocialRp/ArtSocialRp/Moudles/Profile/AS_ProfileVC.swift" : {
+    "const-values" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_ProfileVC.swiftconstvalues",
+    "dependencies" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_ProfileVC.d",
+    "diagnostics" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_ProfileVC.dia",
+    "object" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_ProfileVC.o",
+    "swift-dependencies" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_ProfileVC.swiftdeps"
+  },
+  "/Users/mac/Desktop/ArtSocialRp/ArtSocialRp/Moudles/Profile/Views/AS_PersonHeaderView.swift" : {
+    "const-values" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_PersonHeaderView.swiftconstvalues",
+    "dependencies" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_PersonHeaderView.d",
+    "diagnostics" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_PersonHeaderView.dia",
+    "object" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_PersonHeaderView.o",
+    "swift-dependencies" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_PersonHeaderView.swiftdeps"
+  },
+  "/Users/mac/Desktop/ArtSocialRp/ArtSocialRp/Moudles/Profile/Views/AS_ProfileHeaderView.swift" : {
+    "const-values" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_ProfileHeaderView.swiftconstvalues",
+    "dependencies" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_ProfileHeaderView.d",
+    "diagnostics" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_ProfileHeaderView.dia",
+    "object" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_ProfileHeaderView.o",
+    "swift-dependencies" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_ProfileHeaderView.swiftdeps"
+  }
+}

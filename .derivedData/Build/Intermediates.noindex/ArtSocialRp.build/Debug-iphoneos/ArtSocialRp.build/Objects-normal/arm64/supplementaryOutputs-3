@@ -1,0 +1,30 @@
+{
+  "/Users/mac/Desktop/ArtSocialRp/ArtSocialRp/Moudles/Chat/AS_VideoRoomVC.swift" : {
+    "const-values" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_VideoRoomVC.swiftconstvalues",
+    "dependencies" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_VideoRoomVC.d",
+    "diagnostics" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_VideoRoomVC.dia",
+    "object" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_VideoRoomVC.o",
+    "swift-dependencies" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_VideoRoomVC.swiftdeps"
+  },
+  "/Users/mac/Desktop/ArtSocialRp/ArtSocialRp/Moudles/Chat/Views/AS_ChatApplyCell.swift" : {
+    "const-values" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_ChatApplyCell.swiftconstvalues",
+    "dependencies" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_ChatApplyCell.d",
+    "diagnostics" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_ChatApplyCell.dia",
+    "object" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_ChatApplyCell.o",
+    "swift-dependencies" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_ChatApplyCell.swiftdeps"
+  },
+  "/Users/mac/Desktop/ArtSocialRp/ArtSocialRp/Moudles/Discover/Views/AS_DiscoverDetailHeaderView.swift" : {
+    "const-values" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_DiscoverDetailHeaderView.swiftconstvalues",
+    "dependencies" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_DiscoverDetailHeaderView.d",
+    "diagnostics" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_DiscoverDetailHeaderView.dia",
+    "object" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_DiscoverDetailHeaderView.o",
+    "swift-dependencies" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_DiscoverDetailHeaderView.swiftdeps"
+  },
+  "/Users/mac/Desktop/ArtSocialRp/ArtSocialRp/Moudles/Discover/Views/AS_DiscoverDetailInputView.swift" : {
+    "const-values" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_DiscoverDetailInputView.swiftconstvalues",
+    "dependencies" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_DiscoverDetailInputView.d",
+    "diagnostics" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_DiscoverDetailInputView.dia",
+    "object" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_DiscoverDetailInputView.o",
+    "swift-dependencies" : "/Users/mac/Desktop/ArtSocialRp/.derivedData/Build/Intermediates.noindex/ArtSocialRp.build/Debug-iphoneos/ArtSocialRp.build/Objects-normal/arm64/AS_DiscoverDetailInputView.swiftdeps"
+  }
+}

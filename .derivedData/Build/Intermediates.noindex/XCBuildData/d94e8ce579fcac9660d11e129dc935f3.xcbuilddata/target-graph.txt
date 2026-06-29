@@ -1,0 +1,22 @@
+Target dependency graph (9 targets)
+Target 'ArtSocialRp' in project 'ArtSocialRp'
+➜ Implicit dependency on target 'Pods-ArtSocialRp' in project 'Pods' via file 'Pods_ArtSocialRp.framework' in build phase 'Link Binary'
+➜ Implicit dependency on target 'IQKeyboardManager' in project 'Pods' via options '-framework IQKeyboardManager' in build setting 'OTHER_LDFLAGS'
+➜ Implicit dependency on target 'SVProgressHUD' in project 'Pods' via options '-framework SVProgressHUD' in build setting 'OTHER_LDFLAGS'
+➜ Implicit dependency on target 'SnapKit' in project 'Pods' via options '-framework SnapKit' in build setting 'OTHER_LDFLAGS'
+➜ Implicit dependency on target 'Toast-Swift' in project 'Pods' via options '-framework Toast_Swift' in build setting 'OTHER_LDFLAGS'
+Target 'Pods-ArtSocialRp' in project 'Pods'
+➜ Explicit dependency on target 'IQKeyboardManager' in project 'Pods'
+➜ Explicit dependency on target 'SVProgressHUD' in project 'Pods'
+➜ Explicit dependency on target 'SnapKit' in project 'Pods'
+➜ Explicit dependency on target 'Toast-Swift' in project 'Pods'
+Target 'Toast-Swift' in project 'Pods'
+➜ Explicit dependency on target 'Toast-Swift-Toast-Swift' in project 'Pods'
+Target 'Toast-Swift-Toast-Swift' in project 'Pods' (no dependencies)
+Target 'SnapKit' in project 'Pods'
+➜ Explicit dependency on target 'SnapKit-SnapKit_Privacy' in project 'Pods'
+Target 'SnapKit-SnapKit_Privacy' in project 'Pods' (no dependencies)
+Target 'SVProgressHUD' in project 'Pods' (no dependencies)
+Target 'IQKeyboardManager' in project 'Pods'
+➜ Explicit dependency on target 'IQKeyboardManager-IQKeyboardManager' in project 'Pods'
+Target 'IQKeyboardManager-IQKeyboardManager' in project 'Pods' (no dependencies)

@@ -1,0 +1,1386 @@
+开始自动混淆项目代码扫描文件中。。。。。。
+
+
+混淆项目路径：/Users/a0000/Desktop/whc_clone_directory/ArtHive
+新文件 <-> 现有文件 : LaunchScreen.storyboard      LaunchScreen.storyboard
+新文件 <-> 现有文件 : Main.storyboard      Main.storyboard
+新文件 <-> 现有文件 : AH_AvatarController.swift      ViewController.swift
+新文件 <-> 现有文件 : AH_Empty.swift      AS_QuestionModel+UI.swift
+新文件 <-> 现有文件 : AH_WelcomeController.swift      AS_VideoListVC.swift
+新文件 <-> 现有文件 : AH_VisualDataController.swift      AS_HomeVC.swift
+新文件 <-> 现有文件 : AH_InfoController.swift      AS_QuestionDetailVC.swift
+新文件 <-> 现有文件 : AH_LaunchDiscoverController.swift      AS_VideoVC.swift
+新文件 <-> 现有文件 : AH_RoomCommentCell.swift      AS_QuestionListCell.swift
+新文件 <-> 现有文件 : AH_ReleasePersonCell.swift      AS_QuestionAnswerCell.swift
+新文件 <-> 现有文件 : AH_AnswerDiscoverCell.swift      AS_VideoListCell.swift
+新文件 <-> 现有文件 : AH_SculptureBaseView.swift      AS_HomeHeaderReusableView.swift
+新文件 <-> 现有文件 : AH_BlackView.swift      AS_VideoCommentView.swift
+新文件 <-> 现有文件 : AH_BlackCurrentView.swift      AS_HomeHeaderView.swift
+新文件 <-> 现有文件 : AH_ResourceView.swift      AS_QuestionDetailHeaderView.swift
+新文件 <-> 现有文件 : AH_SetupNewsCell.swift      AS_HomeCell.swift
+新文件 <-> 现有文件 : AH_EditMainController.swift      AS_QuestionListVC.swift
+新文件 <-> 现有文件 : AH_InfoContactController.swift      AS_AddQuestionVC.swift
+新文件 <-> 现有文件 : AH_HistoryController.swift      AS_DiscoverVC.swift
+新文件 <-> 现有文件 : AH_AvatarInfoController.swift      AS_DiscoverDetailVC.swift
+新文件 <-> 现有文件 : AH_TabbarUserCell.swift      AS_DiscoverTimeCell.swift
+新文件 <-> 现有文件 : AH_LoginSetupView.swift      AS_DiscoverReleaseView.swift
+新文件 <-> 现有文件 : AH_LaunchToolView.swift      AS_DiscoverDetailHeaderView.swift
+新文件 <-> 现有文件 : AH_CurrentView.swift      AS_DiscoverDetailInputView.swift
+新文件 <-> 现有文件 : AH_UserNewsCell.swift      AS_DiscoverCommentCell.swift
+新文件 <-> 现有文件 : AH_EmptyController.swift      AS_ChatVC.swift
+新文件 <-> 现有文件 : AH_DiscoverController.swift      AS_VideoRoomVC.swift
+新文件 <-> 现有文件 : AH_ContactHistoryController.swift      AS_ChatRoomVC.swift
+新文件 <-> 现有文件 : AH_ProfileAnswer.swift      AS_ChatModel+UI.swift
+新文件 <-> 现有文件 : AH_EditRegisterCell.swift      AS_ChatApplyCell.swift
+新文件 <-> 现有文件 : AH_InputLoginCell.swift      AS_ChatHistoryCell.swift
+新文件 <-> 现有文件 : AH_ReleaseCell.swift      AS_ChatRoomMessageCell.swift
+新文件 <-> 现有文件 : AH_ProfileController.swift      AS_ProfileVC.swift
+新文件 <-> 现有文件 : AH_MessageController.swift      AS_EditVC.swift
+新文件 <-> 现有文件 : AH_MainController.swift      AS_ReportVC.swift
+新文件 <-> 现有文件 : AH_EditLaunchController.swift      AS_ContactUsVC.swift
+新文件 <-> 现有文件 : AH_SetupDelegateController.swift      AS_BlackListVC.swift
+新文件 <-> 现有文件 : AH_ExtensionController.swift      AS_PersonVC.swift
+新文件 <-> 现有文件 : AH_ReusableController.swift      AS_SetupVC.swift
+新文件 <-> 现有文件 : AH_HistoryVideoCell.swift      AS_SetupCell.swift
+新文件 <-> 现有文件 : AH_SculptureView.swift      AS_PersonHeaderView.swift
+新文件 <-> 现有文件 : AH_VisualManagerCell.swift      AS_BlackListCell.swift
+新文件 <-> 现有文件 : AH_ReusableCell.swift      AS_ReportCell.swift
+新文件 <-> 现有文件 : AH_EditMessageCell.swift      AS_ShopCell.swift
+新文件 <-> 现有文件 : AH_ModityView.swift      AS_ProfileHeaderView.swift
+新文件 <-> 现有文件 : AH_ShopView.swift      AS_ShopHeaderView.swift
+新文件 <-> 现有文件 : AH_ManagerController.swift      AS_ShopVC.swift
+新文件 <-> 现有文件 : AH_ScreenController.swift      AS_LoginVC.swift
+新文件 <-> 现有文件 : AH_PaintDetailController.swift      AS_InfoVC.swift
+新文件 <-> 现有文件 : AH_NetworkController.swift      AS_WelcomeVC.swift
+新文件 <-> 现有文件 : AH_BaseView.swift      AS_EmptyView.swift
+新文件 <-> 现有文件 : AH_Main.swift      UIColor+Extension.swift
+新文件 <-> 现有文件 : AH_RoomModity.swift      AS_NetworkTool.swift
+新文件 <-> 现有文件 : AH_Black.swift      AS_IAPManager.swift
+新文件 <-> 现有文件 : AH_Screen.swift      AS_CurrentUser.swift
+新文件 <-> 现有文件 : AH_SculptureCurrent.swift      UIImage+Resource.swift
+新文件 <-> 现有文件 : AH_ShopInput.swift      AS_PostModel.swift
+新文件 <-> 现有文件 : AH_DataNews.swift      AS_UserModel.swift
+新文件 <-> 现有文件 : AH_AvatarQuestion.swift      AS_ChatData.swift
+新文件 <-> 现有文件 : AH_ModityPost.swift      AS_UserData.swift
+新文件 <-> 现有文件 : AH_Answer.swift      AS_QuestionData.swift
+新文件 <-> 现有文件 : AppDelegate.swift      AppDelegate.swift
+新文件 <-> 现有文件 : AH_ShopReusableController.swift      AS_LaunchVC.swift
+新文件 <-> 现有文件 : AH_HeaderAvatarController.swift      AS_BaseVC.swift
+新文件 <-> 现有文件 : AH_DataController.swift      AS_TabbarVC.swift
+
+
+自动为您开启5个线程进行混淆。。。。。。。
+开始自动清理源代码中的注释。。。。。。
+
+
+
+
+开始提取所有源文件中的类名并生成新类名。。。。。。
+类名: ViewController <---替换为---> AH_AvatarController
+类名: AS_VideoListVC <---替换为---> AH_WelcomeController
+类名: AS_HomeVC <---替换为---> AH_VisualDataController
+类名: AS_QuestionDetailVC <---替换为---> AH_InfoController
+类名: AS_VideoVC <---替换为---> AH_LaunchDiscoverController
+类名: AS_QuestionItem <---替换为---> AH_CommentItem
+类名: AS_QuestionListCell <---替换为---> AH_RoomCommentCell
+类名: AS_QuestionAnswerItem <---替换为---> AH_NewsItem
+类名: AS_QuestionAnswerCell <---替换为---> AH_ReleasePersonCell
+类名: AS_VideoListItem <---替换为---> AH_WelcomeItem
+类名: AS_VideoListCell <---替换为---> AH_AnswerDiscoverCell
+类名: AS_HomeHeaderReusableView <---替换为---> AH_SculptureBaseView
+类名: AS_VideoCommentView <---替换为---> AH_BlackView
+类名: AS_VideoCommentCell <---替换为---> AH_PersonCell
+类名: AS_HomeHeaderView <---替换为---> AH_BlackCurrentView
+类名: AS_QuestionDetailHeaderView <---替换为---> AH_ResourceView
+类名: AS_HomeItem <---替换为---> AH_UserModityItem
+类名: AS_HomeCell <---替换为---> AH_SetupNewsCell
+类名: AS_QuestionListVC <---替换为---> AH_EditMainController
+类名: AS_AddQuestionVC <---替换为---> AH_InfoContactController
+类名: AS_DiscoverVC <---替换为---> AH_HistoryController
+类名: AS_DiscoverDetailVC <---替换为---> AH_AvatarInfoController
+类名: AS_DiscoverTimeItem <---替换为---> AH_HeaderLaunchItem
+类名: AS_DiscoverTimeCell <---替换为---> AH_TabbarUserCell
+类名: AS_DiscoverReleaseView <---替换为---> AH_LoginSetupView
+类名: AS_DiscoverDetailHeaderView <---替换为---> AH_LaunchToolView
+类名: AS_DiscoverDetailInputView <---替换为---> AH_CurrentView
+类名: AS_DiscoverCommentItem <---替换为---> AH_ApplyAvatarItem
+类名: AS_DiscoverCommentCell <---替换为---> AH_UserNewsCell
+类名: AS_ChatVC <---替换为---> AH_EmptyController
+类名: AS_VideoRoomVC <---替换为---> AH_DiscoverController
+类名: AS_ChatRoomVC <---替换为---> AH_ContactHistoryController
+类名: AS_ChatApplyItem <---替换为---> AH_RegisterEmptyItem
+类名: AS_ChatApplyCell <---替换为---> AH_EditRegisterCell
+类名: AS_ChatHistoryItem <---替换为---> AH_HomeItem
+类名: AS_ChatHistoryCell <---替换为---> AH_InputLoginCell
+类名: AS_ChatRoomMessage <---替换为---> AH_BaseDelegate
+类名: AS_ChatRoomMessageCell <---替换为---> AH_ReleaseCell
+类名: AS_ProfileVC <---替换为---> AH_ProfileController
+类名: AS_EditVC <---替换为---> AH_MessageController
+类名: AS_ReportVC <---替换为---> AH_MainController
+类名: AS_ContactUsVC <---替换为---> AH_EditLaunchController
+类名: AS_BlackListVC <---替换为---> AH_SetupDelegateController
+类名: AS_PersonVC <---替换为---> AH_ExtensionController
+类名: AS_SetupVC <---替换为---> AH_ReusableController
+类名: AS_SetupCell <---替换为---> AH_HistoryVideoCell
+类名: AS_PersonHeaderView <---替换为---> AH_SculptureView
+类名: AS_BlackListItem <---替换为---> AH_HistoryAnswerItem
+类名: AS_BlackListCell <---替换为---> AH_VisualManagerCell
+类名: AS_ReportCell <---替换为---> AH_ReusableCell
+类名: AS_ShopItem <---替换为---> AH_CurrentItem
+类名: AS_ShopCell <---替换为---> AH_EditMessageCell
+类名: AS_ProfileHeaderView <---替换为---> AH_ModityView
+类名: AS_ShopHeaderView <---替换为---> AH_ShopView
+类名: AS_ShopVC <---替换为---> AH_ManagerController
+类名: AS_LoginVC <---替换为---> AH_ScreenController
+类名: AS_InfoVC <---替换为---> AH_PaintDetailController
+类名: AS_WelcomeVC <---替换为---> AH_NetworkController
+类名: AS_EmptyView <---替换为---> AH_BaseView
+类名: AS_NetworkTool <---替换为---> AH_RoomModity
+类名: AS_IAPManager <---替换为---> AH_Black
+类名: CatalogItem <---替换为---> AH_EditHistoryItem
+类名: AS_CurrentUser <---替换为---> AH_Screen
+类名: AS_PostModel <---替换为---> AH_ShopInput
+类名: AS_PostCommentModel <---替换为---> AH_Time
+类名: AS_UserModel <---替换为---> AH_DataNews
+类名: AS_ChatMessageModel <---替换为---> AH_Launch
+类名: AS_ChatConversationModel <---替换为---> AH_Network
+类名: AS_UserPostItem <---替换为---> AH_BaseApplyItem
+类名: SavedUserProfile <---替换为---> AH_List
+类名: AS_QuestionAnswerModel <---替换为---> AH_Data
+类名: AS_QuestionModel <---替换为---> AH_Welcome
+类名: AppDelegate <---替换为---> AppDelegate
+类名: AS_LaunchVC <---替换为---> AH_ShopReusableController
+类名: AS_BaseVC <---替换为---> AH_HeaderAvatarController
+类名: AS_TabbarVC <---替换为---> AH_DataController
+
+
+开始替换所有源文件中的类名。。。。。。
+
+
+
+混淆类名耗时：0.0011930465698242188秒
+
+
+混淆图片xml资源耗时：0.8706350326538086秒
+
+
+开始替换宏定义名称。。。。。。
+
+
+
+开始提取所有协议名并生成新协议名。。。。。。
+协议: AS_QuestionAnswerCellDelegate <---替换为---> BNAH_Chat
+协议: AS_VideoCommentViewDelegate <---替换为---> NIAH_PersonLogin
+协议: AS_HomeHeaderViewDelegate <---替换为---> JKAH_Message
+协议: AS_DiscoverTimeCellDelegate <---替换为---> SEAH_ExtensionMain
+协议: AS_DiscoverReleaseViewDelegate <---替换为---> VOAH_Delegate
+协议: AS_DiscoverDetailHeaderViewDelegate <---替换为---> UDAH_Video
+协议: AS_DiscoverDetailInputViewDelegate <---替换为---> NGAH_CommentTime
+协议: AS_DiscoverCommentCellDelegate <---替换为---> YHAH_HeaderReport
+协议: AS_ChatApplyCellDelegate <---替换为---> YXAH_Person
+协议: AS_PersonHeaderViewDelegate <---替换为---> LYAH_Apply
+协议: AS_BlackListCellDelegate <---替换为---> RXAH_MainResource
+协议: AS_ProfileHeaderViewDelegate <---替换为---> PGAH_ApplyInput
+
+
+开始翻新xib、storyboard控件ID值以及布局微调。。。。。。
+
+
+开始混淆多语言文件的key名称。。。。。。
+
+
+开始自动检测类继承关系。。。。。。
+AH_AvatarController : UIViewController
+AH_WelcomeController : AH_HeaderAvatarController
+AH_VisualDataController : AH_HeaderAvatarController
+AH_InfoController : AH_HeaderAvatarController
+AH_LaunchDiscoverController : AH_HeaderAvatarController
+AH_RoomCommentCell : UITableViewCell
+AH_ReleasePersonCell : UITableViewCell
+AH_AnswerDiscoverCell : UICollectionViewCell
+AH_SculptureBaseView : UICollectionReusableView
+AH_BlackView : UIView
+AH_PersonCell : UITableViewCell
+AH_BlackCurrentView : UIView
+AH_ResourceView : UIView
+AH_SetupNewsCell : UICollectionViewCell
+AH_EditMainController : AH_HeaderAvatarController
+AH_InfoContactController : AH_HeaderAvatarController
+AH_HistoryController : AH_HeaderAvatarController
+AH_AvatarInfoController : AH_HeaderAvatarController
+AH_TabbarUserCell : UITableViewCell
+AH_LoginSetupView : UIView
+AH_LaunchToolView : UIView
+AH_CurrentView : UIView
+AH_UserNewsCell : UITableViewCell
+AH_EmptyController : AH_HeaderAvatarController
+AH_DiscoverController : AH_HeaderAvatarController
+AH_ContactHistoryController : AH_HeaderAvatarController
+AH_EditRegisterCell : UITableViewCell
+AH_InputLoginCell : UITableViewCell
+AH_ReleaseCell : UITableViewCell
+AH_ProfileController : AH_HeaderAvatarController
+AH_MessageController : AH_HeaderAvatarController
+AH_MainController : AH_HeaderAvatarController
+AH_EditLaunchController : AH_HeaderAvatarController
+AH_SetupDelegateController : AH_HeaderAvatarController
+AH_ExtensionController : AH_HeaderAvatarController
+AH_ReusableController : AH_HeaderAvatarController
+AH_HistoryVideoCell : UITableViewCell
+AH_SculptureView : UIView
+AH_VisualManagerCell : UITableViewCell
+AH_ReusableCell : UITableViewCell
+AH_EditMessageCell : UITableViewCell
+AH_ModityView : UIView
+AH_ShopView : UIView
+AH_ManagerController : AH_HeaderAvatarController
+AH_ScreenController : AH_HeaderAvatarController
+AH_PaintDetailController : AH_HeaderAvatarController
+AH_NetworkController : AH_HeaderAvatarController
+AH_BaseView : UIView
+AppDelegate : UIResponder
+AH_ShopReusableController : UIViewController
+AH_HeaderAvatarController : UIViewController
+AH_DataController : UITabBarController
+
+
+开始自动检测统计所有文件中属性信息。。。。。。
+
+
+开始自动修改Assets图片资源。。。。。。。
+
+Assets图片资源修改结束
+
+
+开始自动修改sks资源名称。。。。。。。
+
+sks资源修改结束
+
+开始打乱函数定义顺序。。。。。。。
+100%👌
+
+开始提取分析源文件中函数名称。。。。。。。
+文件: [旧 AS_VideoListVC <--> 新 AH_WelcomeController]    函数名称: setupActions
+文件: [旧 AS_VideoListVC <--> 新 AH_WelcomeController]    函数名称: clickBackButton
+文件: [旧 AS_VideoListVC <--> 新 AH_WelcomeController]    函数名称: loadData
+文件: [旧 AS_VideoListVC <--> 新 AH_WelcomeController]    函数名称: setupGradientBackground
+文件: [旧 AS_VideoListVC <--> 新 AH_WelcomeController]    函数名称: setupUI
+文件: [旧 AS_VideoListVC <--> 新 AH_WelcomeController]    函数名称: updateTitleView
+文件: [旧 AS_HomeVC <--> 新 AH_VisualDataController]    函数名称: loadData
+文件: [旧 AS_HomeVC <--> 新 AH_VisualDataController]    函数名称: setupUI
+文件: [旧 AS_HomeVC <--> 新 AH_VisualDataController]    函数名称: homeHeaderView
+文件: [旧 AS_HomeVC <--> 新 AH_VisualDataController]    函数名称: homeHeaderViewDidTapAnswer
+文件: [旧 AS_QuestionDetailVC <--> 新 AH_InfoController]    函数名称: updateTableHeaderViewFrameIfNeeded
+文件: [旧 AS_QuestionDetailVC <--> 新 AH_InfoController]    函数名称: setupUI
+文件: [旧 AS_QuestionDetailVC <--> 新 AH_InfoController]    函数名称: reloadTableHeaderView
+文件: [旧 AS_QuestionDetailVC <--> 新 AH_InfoController]    函数名称: setupTableHeaderView
+文件: [旧 AS_QuestionDetailVC <--> 新 AH_InfoController]    函数名称: applyTableHeaderLayout
+文件: [旧 AS_QuestionDetailVC <--> 新 AH_InfoController]    函数名称: clickBackButton
+文件: [旧 AS_QuestionDetailVC <--> 新 AH_InfoController]    函数名称: setupActions
+文件: [旧 AS_QuestionDetailVC <--> 新 AH_InfoController]    函数名称: questionAnswerCell
+文件: [旧 AS_QuestionDetailVC <--> 新 AH_InfoController]    函数名称: removeAnswer
+文件: [旧 AS_QuestionDetailVC <--> 新 AH_InfoController]    函数名称: questionAnswerCellDidTapReport
+文件: [旧 AS_VideoVC <--> 新 AH_LaunchDiscoverController]    函数名称: setupUI
+文件: [旧 AS_VideoVC <--> 新 AH_LaunchDiscoverController]    函数名称: setupPlayer
+文件: [旧 AS_VideoVC <--> 新 AH_LaunchDiscoverController]    函数名称: clickBackButton
+文件: [旧 AS_VideoVC <--> 新 AH_LaunchDiscoverController]    函数名称: setupActions
+文件: [旧 AS_VideoVC <--> 新 AH_LaunchDiscoverController]    函数名称: configureContent
+文件: [旧 AS_VideoVC <--> 新 AH_LaunchDiscoverController]    函数名称: clickCommentButton
+文件: [旧 AS_VideoVC <--> 新 AH_LaunchDiscoverController]    函数名称: clickReportButton
+文件: [旧 AS_VideoVC <--> 新 AH_LaunchDiscoverController]    函数名称: playerDidReachEnd
+文件: [旧 AS_VideoVC <--> 新 AH_LaunchDiscoverController]    函数名称: videoCommentView
+文件: [旧 AS_VideoVC <--> 新 AH_LaunchDiscoverController]    函数名称: videoCommentView
+文件: [旧 AS_VideoVC <--> 新 AH_LaunchDiscoverController]    函数名称: removeComment
+文件: [旧 AS_VideoVC <--> 新 AH_LaunchDiscoverController]    函数名称: videoCommentViewDidClose
+文件: [旧 AS_QuestionListCell <--> 新 AH_RoomCommentCell]    函数名称: setupUI
+文件: [旧 AS_QuestionListCell <--> 新 AH_RoomCommentCell]    函数名称: configure
+文件: [旧 AS_QuestionAnswerCell <--> 新 AH_ReleasePersonCell]    函数名称: questionAnswerCell
+文件: [旧 AS_QuestionAnswerCell <--> 新 AH_ReleasePersonCell]    函数名称: questionAnswerCellDidTapReport
+文件: [旧 AS_QuestionAnswerCell <--> 新 AH_ReleasePersonCell]    函数名称: clickAvatar
+文件: [旧 AS_QuestionAnswerCell <--> 新 AH_ReleasePersonCell]    函数名称: configure
+文件: [旧 AS_QuestionAnswerCell <--> 新 AH_ReleasePersonCell]    函数名称: setupUI
+文件: [旧 AS_QuestionAnswerCell <--> 新 AH_ReleasePersonCell]    函数名称: clickReport
+文件: [旧 AS_QuestionAnswerCell <--> 新 AH_ReleasePersonCell]    函数名称: setupActions
+文件: [旧 AS_VideoListCell <--> 新 AH_AnswerDiscoverCell]    函数名称: setupUI
+文件: [旧 AS_VideoListCell <--> 新 AH_AnswerDiscoverCell]    函数名称: configure
+文件: [旧 AS_VideoCommentView <--> 新 AH_BlackView]    函数名称: videoCommentViewDidClose
+文件: [旧 AS_VideoCommentView <--> 新 AH_BlackView]    函数名称: videoCommentView
+文件: [旧 AS_VideoCommentView <--> 新 AH_BlackView]    函数名称: videoCommentView
+文件: [旧 AS_VideoCommentView <--> 新 AH_BlackView]    函数名称: clickSendButton
+文件: [旧 AS_VideoCommentView <--> 新 AH_BlackView]    函数名称: clickDimmingView
+文件: [旧 AS_VideoCommentView <--> 新 AH_BlackView]    函数名称: clickCloseButton
+文件: [旧 AS_VideoCommentView <--> 新 AH_BlackView]    函数名称: appendComment
+文件: [旧 AS_VideoCommentView <--> 新 AH_BlackView]    函数名称: setupUI
+文件: [旧 AS_VideoCommentView <--> 新 AH_BlackView]    函数名称: removeComment
+文件: [旧 AS_VideoCommentView <--> 新 AH_BlackView]    函数名称: configure
+文件: [旧 AS_VideoCommentView <--> 新 AH_BlackView]    函数名称: setupActions
+文件: [旧 AS_VideoCommentView <--> 新 AH_BlackView]    函数名称: setupUI
+文件: [旧 AS_VideoCommentView <--> 新 AH_BlackView]    函数名称: setupActions
+文件: [旧 AS_VideoCommentView <--> 新 AH_BlackView]    函数名称: configure
+文件: [旧 AS_VideoCommentView <--> 新 AH_BlackView]    函数名称: clickReportButton
+文件: [旧 AS_HomeHeaderView <--> 新 AH_BlackCurrentView]    函数名称: homeHeaderView
+文件: [旧 AS_HomeHeaderView <--> 新 AH_BlackCurrentView]    函数名称: homeHeaderViewDidTapAnswer
+文件: [旧 AS_HomeHeaderView <--> 新 AH_BlackCurrentView]    函数名称: clickPaintButton
+文件: [旧 AS_HomeHeaderView <--> 新 AH_BlackCurrentView]    函数名称: setupActions
+文件: [旧 AS_HomeHeaderView <--> 新 AH_BlackCurrentView]    函数名称: clickVisualButton
+文件: [旧 AS_HomeHeaderView <--> 新 AH_BlackCurrentView]    函数名称: clickSculptureButton
+文件: [旧 AS_HomeHeaderView <--> 新 AH_BlackCurrentView]    函数名称: clickAnswerView
+文件: [旧 AS_HomeHeaderView <--> 新 AH_BlackCurrentView]    函数名称: setupUI
+文件: [旧 AS_HomeHeaderView <--> 新 AH_BlackCurrentView]    函数名称: configureAnswerContent
+文件: [旧 AS_QuestionDetailHeaderView <--> 新 AH_ResourceView]    函数名称: updateQuestionButtonGradient
+文件: [旧 AS_QuestionDetailHeaderView <--> 新 AH_ResourceView]    函数名称: configure
+文件: [旧 AS_QuestionDetailHeaderView <--> 新 AH_ResourceView]    函数名称: setupUI
+文件: [旧 AS_HomeCell <--> 新 AH_SetupNewsCell]    函数名称: setupUI
+文件: [旧 AS_HomeCell <--> 新 AH_SetupNewsCell]    函数名称: configure
+文件: [旧 AS_QuestionListVC <--> 新 AH_EditMainController]    函数名称: setupActions
+文件: [旧 AS_QuestionListVC <--> 新 AH_EditMainController]    函数名称: setupUI
+文件: [旧 AS_QuestionListVC <--> 新 AH_EditMainController]    函数名称: clickAddButton
+文件: [旧 AS_QuestionListVC <--> 新 AH_EditMainController]    函数名称: loadData
+文件: [旧 AS_QuestionListVC <--> 新 AH_EditMainController]    函数名称: clickBackButton
+文件: [旧 AS_AddQuestionVC <--> 新 AH_InfoContactController]    函数名称: setupUI
+文件: [旧 AS_AddQuestionVC <--> 新 AH_InfoContactController]    函数名称: setupActions
+文件: [旧 AS_AddQuestionVC <--> 新 AH_InfoContactController]    函数名称: clickReviseButton
+文件: [旧 AS_AddQuestionVC <--> 新 AH_InfoContactController]    函数名称: setupCoinAttributedText
+文件: [旧 AS_AddQuestionVC <--> 新 AH_InfoContactController]    函数名称: updatePlaceholderVisibility
+文件: [旧 AS_AddQuestionVC <--> 新 AH_InfoContactController]    函数名称: clickBackButton
+文件: [旧 AS_DiscoverVC <--> 新 AH_HistoryController]    函数名称: clickTimeButton
+文件: [旧 AS_DiscoverVC <--> 新 AH_HistoryController]    函数名称: clickReleaseButton
+文件: [旧 AS_DiscoverVC <--> 新 AH_HistoryController]    函数名称: setupUI
+文件: [旧 AS_DiscoverVC <--> 新 AH_HistoryController]    函数名称: setupActions
+文件: [旧 AS_DiscoverVC <--> 新 AH_HistoryController]    函数名称: loadData
+文件: [旧 AS_DiscoverVC <--> 新 AH_HistoryController]    函数名称: updateTabUI
+文件: [旧 AS_DiscoverVC <--> 新 AH_HistoryController]    函数名称: releaseViewDidTapRevise
+文件: [旧 AS_DiscoverVC <--> 新 AH_HistoryController]    函数名称: discoverTimeCell
+文件: [旧 AS_DiscoverVC <--> 新 AH_HistoryController]    函数名称: discoverTimeCell
+文件: [旧 AS_DiscoverVC <--> 新 AH_HistoryController]    函数名称: discoverTimeCell
+文件: [旧 AS_DiscoverDetailVC <--> 新 AH_AvatarInfoController]    函数名称: setupUI
+文件: [旧 AS_DiscoverDetailVC <--> 新 AH_AvatarInfoController]    函数名称: setupActions
+文件: [旧 AS_DiscoverDetailVC <--> 新 AH_AvatarInfoController]    函数名称: updateTableHeaderViewFrameIfNeeded
+文件: [旧 AS_DiscoverDetailVC <--> 新 AH_AvatarInfoController]    函数名称: setupTableHeaderView
+文件: [旧 AS_DiscoverDetailVC <--> 新 AH_AvatarInfoController]    函数名称: clickBackButton
+文件: [旧 AS_DiscoverDetailVC <--> 新 AH_AvatarInfoController]    函数名称: discoverCommentCellDidTapReport
+文件: [旧 AS_DiscoverDetailVC <--> 新 AH_AvatarInfoController]    函数名称: removeComment
+文件: [旧 AS_DiscoverDetailVC <--> 新 AH_AvatarInfoController]    函数名称: discoverCommentCell
+文件: [旧 AS_DiscoverDetailVC <--> 新 AH_AvatarInfoController]    函数名称: discoverDetailHeaderView
+文件: [旧 AS_DiscoverDetailVC <--> 新 AH_AvatarInfoController]    函数名称: discoverDetailHeaderView
+文件: [旧 AS_DiscoverDetailVC <--> 新 AH_AvatarInfoController]    函数名称: discoverDetailHeaderView
+文件: [旧 AS_DiscoverTimeCell <--> 新 AH_TabbarUserCell]    函数名称: discoverTimeCell
+文件: [旧 AS_DiscoverTimeCell <--> 新 AH_TabbarUserCell]    函数名称: discoverTimeCell
+文件: [旧 AS_DiscoverTimeCell <--> 新 AH_TabbarUserCell]    函数名称: discoverTimeCell
+文件: [旧 AS_DiscoverTimeCell <--> 新 AH_TabbarUserCell]    函数名称: discoverTimeCell
+文件: [旧 AS_DiscoverTimeCell <--> 新 AH_TabbarUserCell]    函数名称: as_handleDiscoverPostReport
+文件: [旧 AS_DiscoverTimeCell <--> 新 AH_TabbarUserCell]    函数名称: setupActions
+文件: [旧 AS_DiscoverTimeCell <--> 新 AH_TabbarUserCell]    函数名称: setupUI
+文件: [旧 AS_DiscoverTimeCell <--> 新 AH_TabbarUserCell]    函数名称: clickAvatar
+文件: [旧 AS_DiscoverTimeCell <--> 新 AH_TabbarUserCell]    函数名称: updateLikeButtonState
+文件: [旧 AS_DiscoverTimeCell <--> 新 AH_TabbarUserCell]    函数名称: clickReport
+文件: [旧 AS_DiscoverTimeCell <--> 新 AH_TabbarUserCell]    函数名称: clickLike
+文件: [旧 AS_DiscoverTimeCell <--> 新 AH_TabbarUserCell]    函数名称: configure
+文件: [旧 AS_DiscoverReleaseView <--> 新 AH_LoginSetupView]    函数名称: releaseViewDidTapRevise
+文件: [旧 AS_DiscoverReleaseView <--> 新 AH_LoginSetupView]    函数名称: clickReviseButton
+文件: [旧 AS_DiscoverReleaseView <--> 新 AH_LoginSetupView]    函数名称: updatePlaceholderVisibility
+文件: [旧 AS_DiscoverReleaseView <--> 新 AH_LoginSetupView]    函数名称: setupCoinAttributedText
+文件: [旧 AS_DiscoverReleaseView <--> 新 AH_LoginSetupView]    函数名称: setupUI
+文件: [旧 AS_DiscoverReleaseView <--> 新 AH_LoginSetupView]    函数名称: setupActions
+文件: [旧 AS_DiscoverReleaseView <--> 新 AH_LoginSetupView]    函数名称: resetForm
+文件: [旧 AS_DiscoverReleaseView <--> 新 AH_LoginSetupView]    函数名称: bind
+文件: [旧 AS_DiscoverReleaseView <--> 新 AH_LoginSetupView]    函数名称: clickAddPhotoButton
+文件: [旧 AS_DiscoverDetailHeaderView <--> 新 AH_LaunchToolView]    函数名称: discoverDetailHeaderView
+文件: [旧 AS_DiscoverDetailHeaderView <--> 新 AH_LaunchToolView]    函数名称: discoverDetailHeaderView
+文件: [旧 AS_DiscoverDetailHeaderView <--> 新 AH_LaunchToolView]    函数名称: discoverDetailHeaderView
+文件: [旧 AS_DiscoverDetailHeaderView <--> 新 AH_LaunchToolView]    函数名称: discoverDetailHeaderView
+文件: [旧 AS_DiscoverDetailHeaderView <--> 新 AH_LaunchToolView]    函数名称: clickReport
+文件: [旧 AS_DiscoverDetailHeaderView <--> 新 AH_LaunchToolView]    函数名称: updateLikeButtonState
+文件: [旧 AS_DiscoverDetailHeaderView <--> 新 AH_LaunchToolView]    函数名称: clickAvatar
+文件: [旧 AS_DiscoverDetailHeaderView <--> 新 AH_LaunchToolView]    函数名称: configure
+文件: [旧 AS_DiscoverDetailHeaderView <--> 新 AH_LaunchToolView]    函数名称: setupUI
+文件: [旧 AS_DiscoverDetailHeaderView <--> 新 AH_LaunchToolView]    函数名称: clickLike
+文件: [旧 AS_DiscoverDetailHeaderView <--> 新 AH_LaunchToolView]    函数名称: setupActions
+文件: [旧 AS_DiscoverDetailInputView <--> 新 AH_CurrentView]    函数名称: setupActions
+文件: [旧 AS_DiscoverDetailInputView <--> 新 AH_CurrentView]    函数名称: clickSendButton
+文件: [旧 AS_DiscoverDetailInputView <--> 新 AH_CurrentView]    函数名称: setupUI
+文件: [旧 AS_DiscoverCommentCell <--> 新 AH_UserNewsCell]    函数名称: discoverCommentCell
+文件: [旧 AS_DiscoverCommentCell <--> 新 AH_UserNewsCell]    函数名称: discoverCommentCellDidTapReport
+文件: [旧 AS_DiscoverCommentCell <--> 新 AH_UserNewsCell]    函数名称: configure
+文件: [旧 AS_DiscoverCommentCell <--> 新 AH_UserNewsCell]    函数名称: setupUI
+文件: [旧 AS_DiscoverCommentCell <--> 新 AH_UserNewsCell]    函数名称: setupActions
+文件: [旧 AS_DiscoverCommentCell <--> 新 AH_UserNewsCell]    函数名称: clickReport
+文件: [旧 AS_DiscoverCommentCell <--> 新 AH_UserNewsCell]    函数名称: clickAvatar
+文件: [旧 AS_ChatVC <--> 新 AH_EmptyController]    函数名称: clickApplyButton
+文件: [旧 AS_ChatVC <--> 新 AH_EmptyController]    函数名称: setupActions
+文件: [旧 AS_ChatVC <--> 新 AH_EmptyController]    函数名称: clickChatButton
+文件: [旧 AS_ChatVC <--> 新 AH_EmptyController]    函数名称: updateEmptyView
+文件: [旧 AS_ChatVC <--> 新 AH_EmptyController]    函数名称: updateTabUI
+文件: [旧 AS_ChatVC <--> 新 AH_EmptyController]    函数名称: loadData
+文件: [旧 AS_ChatVC <--> 新 AH_EmptyController]    函数名称: setupUI
+文件: [旧 AS_ChatVC <--> 新 AH_EmptyController]    函数名称: applyCell
+文件: [旧 AS_VideoRoomVC <--> 新 AH_DiscoverController]    函数名称: clickReverseButton
+文件: [旧 AS_VideoRoomVC <--> 新 AH_DiscoverController]    函数名称: setupActions
+文件: [旧 AS_VideoRoomVC <--> 新 AH_DiscoverController]    函数名称: startCameraSession
+文件: [旧 AS_VideoRoomVC <--> 新 AH_DiscoverController]    函数名称: clickBackButton
+文件: [旧 AS_VideoRoomVC <--> 新 AH_DiscoverController]    函数名称: clickMicButton
+文件: [旧 AS_VideoRoomVC <--> 新 AH_DiscoverController]    函数名称: showPermissionAlert
+文件: [旧 AS_VideoRoomVC <--> 新 AH_DiscoverController]    函数名称: ensurePermission
+文件: [旧 AS_VideoRoomVC <--> 新 AH_DiscoverController]    函数名称: setupUI
+文件: [旧 AS_VideoRoomVC <--> 新 AH_DiscoverController]    函数名称: updateControlButtons
+文件: [旧 AS_VideoRoomVC <--> 新 AH_DiscoverController]    函数名称: clickHangUpButton
+文件: [旧 AS_VideoRoomVC <--> 新 AH_DiscoverController]    函数名称: stopCameraSession
+文件: [旧 AS_VideoRoomVC <--> 新 AH_DiscoverController]    函数名称: checkMediaPermissions
+文件: [旧 AS_VideoRoomVC <--> 新 AH_DiscoverController]    函数名称: switchCamera
+文件: [旧 AS_VideoRoomVC <--> 新 AH_DiscoverController]    函数名称: clickCameraButton
+文件: [旧 AS_ChatRoomVC <--> 新 AH_ContactHistoryController]    函数名称: clickVideoButton
+文件: [旧 AS_ChatRoomVC <--> 新 AH_ContactHistoryController]    函数名称: updateHeaderInfo
+文件: [旧 AS_ChatRoomVC <--> 新 AH_ContactHistoryController]    函数名称: clickAlertButton
+文件: [旧 AS_ChatRoomVC <--> 新 AH_ContactHistoryController]    函数名称: clickBackButton
+文件: [旧 AS_ChatRoomVC <--> 新 AH_ContactHistoryController]    函数名称: scrollToBottom
+文件: [旧 AS_ChatRoomVC <--> 新 AH_ContactHistoryController]    函数名称: setupUI
+文件: [旧 AS_ChatRoomVC <--> 新 AH_ContactHistoryController]    函数名称: loadMessages
+文件: [旧 AS_ChatRoomVC <--> 新 AH_ContactHistoryController]    函数名称: clickSendButton
+文件: [旧 AS_ChatRoomVC <--> 新 AH_ContactHistoryController]    函数名称: setupActions
+文件: [旧 AS_ChatModel+UI <--> 新 AH_ProfileAnswer]    函数名称: roomMessage
+文件: [旧 AS_ChatModel+UI <--> 新 AH_ProfileAnswer]    函数名称: roomMessages
+文件: [旧 AS_ChatApplyCell <--> 新 AH_EditRegisterCell]    函数名称: applyCell
+文件: [旧 AS_ChatApplyCell <--> 新 AH_EditRegisterCell]    函数名称: setupUI
+文件: [旧 AS_ChatApplyCell <--> 新 AH_EditRegisterCell]    函数名称: updateFollowButton
+文件: [旧 AS_ChatApplyCell <--> 新 AH_EditRegisterCell]    函数名称: updateFollowGradientFrame
+文件: [旧 AS_ChatApplyCell <--> 新 AH_EditRegisterCell]    函数名称: clickFollowButton
+文件: [旧 AS_ChatApplyCell <--> 新 AH_EditRegisterCell]    函数名称: configure
+文件: [旧 AS_ChatHistoryCell <--> 新 AH_InputLoginCell]    函数名称: setupUI
+文件: [旧 AS_ChatHistoryCell <--> 新 AH_InputLoginCell]    函数名称: configure
+文件: [旧 AS_ChatRoomMessageCell <--> 新 AH_ReleaseCell]    函数名称: setupUI
+文件: [旧 AS_ChatRoomMessageCell <--> 新 AH_ReleaseCell]    函数名称: configure
+文件: [旧 AS_ProfileVC <--> 新 AH_ProfileController]    函数名称: setupUI
+文件: [旧 AS_ProfileVC <--> 新 AH_ProfileController]    函数名称: loadData
+文件: [旧 AS_ProfileVC <--> 新 AH_ProfileController]    函数名称: setupTableHeaderView
+文件: [旧 AS_ProfileVC <--> 新 AH_ProfileController]    函数名称: updateTableHeaderViewFrameIfNeeded
+文件: [旧 AS_ProfileVC <--> 新 AH_ProfileController]    函数名称: discoverTimeCell
+文件: [旧 AS_ProfileVC <--> 新 AH_ProfileController]    函数名称: discoverTimeCell
+文件: [旧 AS_ProfileVC <--> 新 AH_ProfileController]    函数名称: discoverTimeCell
+文件: [旧 AS_ProfileVC <--> 新 AH_ProfileController]    函数名称: profileHeaderViewDidTapEdit
+文件: [旧 AS_ProfileVC <--> 新 AH_ProfileController]    函数名称: profileHeaderViewDidTapWallet
+文件: [旧 AS_ProfileVC <--> 新 AH_ProfileController]    函数名称: profileHeaderViewDidTapSetup
+文件: [旧 AS_EditVC <--> 新 AH_MessageController]    函数名称: clickBackButton
+文件: [旧 AS_EditVC <--> 新 AH_MessageController]    函数名称: clickCameraButton
+文件: [旧 AS_EditVC <--> 新 AH_MessageController]    函数名称: nameFieldDidChange
+文件: [旧 AS_EditVC <--> 新 AH_MessageController]    函数名称: clickReviseButton
+文件: [旧 AS_EditVC <--> 新 AH_MessageController]    函数名称: updateClearNameButtonVisibility
+文件: [旧 AS_EditVC <--> 新 AH_MessageController]    函数名称: clickClearNameButton
+文件: [旧 AS_EditVC <--> 新 AH_MessageController]    函数名称: setupActions
+文件: [旧 AS_EditVC <--> 新 AH_MessageController]    函数名称: loadData
+文件: [旧 AS_EditVC <--> 新 AH_MessageController]    函数名称: setupUI
+文件: [旧 AS_ReportVC <--> 新 AH_MainController]    函数名称: clickConfirmButton
+文件: [旧 AS_ReportVC <--> 新 AH_MainController]    函数名称: setupUI
+文件: [旧 AS_ReportVC <--> 新 AH_MainController]    函数名称: clickBackButton
+文件: [旧 AS_ReportVC <--> 新 AH_MainController]    函数名称: setupActions
+文件: [旧 AS_ContactUsVC <--> 新 AH_EditLaunchController]    函数名称: setupActions
+文件: [旧 AS_ContactUsVC <--> 新 AH_EditLaunchController]    函数名称: setupUI
+文件: [旧 AS_ContactUsVC <--> 新 AH_EditLaunchController]    函数名称: clickBackButton
+文件: [旧 AS_ContactUsVC <--> 新 AH_EditLaunchController]    函数名称: clickEmailButton
+文件: [旧 AS_ContactUsVC <--> 新 AH_EditLaunchController]    函数名称: copyEmailAddress
+文件: [旧 AS_BlackListVC <--> 新 AH_SetupDelegateController]    函数名称: loadData
+文件: [旧 AS_BlackListVC <--> 新 AH_SetupDelegateController]    函数名称: setupUI
+文件: [旧 AS_BlackListVC <--> 新 AH_SetupDelegateController]    函数名称: setupActions
+文件: [旧 AS_BlackListVC <--> 新 AH_SetupDelegateController]    函数名称: clickBackButton
+文件: [旧 AS_BlackListVC <--> 新 AH_SetupDelegateController]    函数名称: blackListCell
+文件: [旧 AS_PersonVC <--> 新 AH_ExtensionController]    函数名称: setupTableHeaderView
+文件: [旧 AS_PersonVC <--> 新 AH_ExtensionController]    函数名称: updateTableHeaderViewFrameIfNeeded
+文件: [旧 AS_PersonVC <--> 新 AH_ExtensionController]    函数名称: setupUI
+文件: [旧 AS_PersonVC <--> 新 AH_ExtensionController]    函数名称: loadData
+文件: [旧 AS_PersonVC <--> 新 AH_ExtensionController]    函数名称: personHeaderViewDidTapAlert
+文件: [旧 AS_PersonVC <--> 新 AH_ExtensionController]    函数名称: personHeaderViewDidTapFollow
+文件: [旧 AS_PersonVC <--> 新 AH_ExtensionController]    函数名称: personHeaderViewDidTapVideo
+文件: [旧 AS_PersonVC <--> 新 AH_ExtensionController]    函数名称: personHeaderViewDidTapBack
+文件: [旧 AS_PersonVC <--> 新 AH_ExtensionController]    函数名称: personHeaderViewDidTapChat
+文件: [旧 AS_PersonVC <--> 新 AH_ExtensionController]    函数名称: discoverTimeCell
+文件: [旧 AS_PersonVC <--> 新 AH_ExtensionController]    函数名称: discoverTimeCell
+文件: [旧 AS_PersonVC <--> 新 AH_ExtensionController]    函数名称: discoverTimeCell
+文件: [旧 AS_SetupVC <--> 新 AH_ReusableController]    函数名称: clickBackButton
+文件: [旧 AS_SetupVC <--> 新 AH_ReusableController]    函数名称: setupActions
+文件: [旧 AS_SetupVC <--> 新 AH_ReusableController]    函数名称: setupUI
+文件: [旧 AS_SetupCell <--> 新 AH_HistoryVideoCell]    函数名称: configure
+文件: [旧 AS_SetupCell <--> 新 AH_HistoryVideoCell]    函数名称: setupUI
+文件: [旧 AS_PersonHeaderView <--> 新 AH_SculptureView]    函数名称: personHeaderViewDidTapBack
+文件: [旧 AS_PersonHeaderView <--> 新 AH_SculptureView]    函数名称: personHeaderViewDidTapAlert
+文件: [旧 AS_PersonHeaderView <--> 新 AH_SculptureView]    函数名称: personHeaderViewDidTapVideo
+文件: [旧 AS_PersonHeaderView <--> 新 AH_SculptureView]    函数名称: personHeaderViewDidTapChat
+文件: [旧 AS_PersonHeaderView <--> 新 AH_SculptureView]    函数名称: personHeaderViewDidTapFollow
+文件: [旧 AS_PersonHeaderView <--> 新 AH_SculptureView]    函数名称: clickAlertButton
+文件: [旧 AS_PersonHeaderView <--> 新 AH_SculptureView]    函数名称: configure
+文件: [旧 AS_PersonHeaderView <--> 新 AH_SculptureView]    函数名称: clickBackButton
+文件: [旧 AS_PersonHeaderView <--> 新 AH_SculptureView]    函数名称: updateFollowState
+文件: [旧 AS_PersonHeaderView <--> 新 AH_SculptureView]    函数名称: setupUI
+文件: [旧 AS_PersonHeaderView <--> 新 AH_SculptureView]    函数名称: updateFansCount
+文件: [旧 AS_PersonHeaderView <--> 新 AH_SculptureView]    函数名称: clickFollowButton
+文件: [旧 AS_PersonHeaderView <--> 新 AH_SculptureView]    函数名称: updateLayoutForCurrentUser
+文件: [旧 AS_PersonHeaderView <--> 新 AH_SculptureView]    函数名称: statText
+文件: [旧 AS_PersonHeaderView <--> 新 AH_SculptureView]    函数名称: clickVideoButton
+文件: [旧 AS_PersonHeaderView <--> 新 AH_SculptureView]    函数名称: clickChatButton
+文件: [旧 AS_PersonHeaderView <--> 新 AH_SculptureView]    函数名称: setupActions
+文件: [旧 AS_BlackListCell <--> 新 AH_VisualManagerCell]    函数名称: blackListCell
+文件: [旧 AS_BlackListCell <--> 新 AH_VisualManagerCell]    函数名称: setupUI
+文件: [旧 AS_BlackListCell <--> 新 AH_VisualManagerCell]    函数名称: configure
+文件: [旧 AS_BlackListCell <--> 新 AH_VisualManagerCell]    函数名称: clickCancelButton
+文件: [旧 AS_ReportCell <--> 新 AH_ReusableCell]    函数名称: configure
+文件: [旧 AS_ReportCell <--> 新 AH_ReusableCell]    函数名称: setupUI
+文件: [旧 AS_ShopCell <--> 新 AH_EditMessageCell]    函数名称: configure
+文件: [旧 AS_ShopCell <--> 新 AH_EditMessageCell]    函数名称: clickBuyButton
+文件: [旧 AS_ShopCell <--> 新 AH_EditMessageCell]    函数名称: setupUI
+文件: [旧 AS_ProfileHeaderView <--> 新 AH_ModityView]    函数名称: profileHeaderViewDidTapWallet
+文件: [旧 AS_ProfileHeaderView <--> 新 AH_ModityView]    函数名称: profileHeaderViewDidTapEdit
+文件: [旧 AS_ProfileHeaderView <--> 新 AH_ModityView]    函数名称: profileHeaderViewDidTapSetup
+文件: [旧 AS_ProfileHeaderView <--> 新 AH_ModityView]    函数名称: setupUI
+文件: [旧 AS_ProfileHeaderView <--> 新 AH_ModityView]    函数名称: setupActions
+文件: [旧 AS_ProfileHeaderView <--> 新 AH_ModityView]    函数名称: clickWalletButton
+文件: [旧 AS_ProfileHeaderView <--> 新 AH_ModityView]    函数名称: configure
+文件: [旧 AS_ProfileHeaderView <--> 新 AH_ModityView]    函数名称: clickSetupButton
+文件: [旧 AS_ProfileHeaderView <--> 新 AH_ModityView]    函数名称: clickEditButton
+文件: [旧 AS_ProfileHeaderView <--> 新 AH_ModityView]    函数名称: statText
+文件: [旧 AS_ShopHeaderView <--> 新 AH_ShopView]    函数名称: setupUI
+文件: [旧 AS_ShopHeaderView <--> 新 AH_ShopView]    函数名称: configure
+文件: [旧 AS_ShopVC <--> 新 AH_ManagerController]    函数名称: purchase
+文件: [旧 AS_ShopVC <--> 新 AH_ManagerController]    函数名称: loadProducts
+文件: [旧 AS_ShopVC <--> 新 AH_ManagerController]    函数名称: updateTableHeaderViewFrameIfNeeded
+文件: [旧 AS_ShopVC <--> 新 AH_ManagerController]    函数名称: formatCoins
+文件: [旧 AS_ShopVC <--> 新 AH_ManagerController]    函数名称: refreshBalance
+文件: [旧 AS_ShopVC <--> 新 AH_ManagerController]    函数名称: clickBackButton
+文件: [旧 AS_ShopVC <--> 新 AH_ManagerController]    函数名称: setupUI
+文件: [旧 AS_ShopVC <--> 新 AH_ManagerController]    函数名称: setupActions
+文件: [旧 AS_ShopVC <--> 新 AH_ManagerController]    函数名称: setupTableHeaderView
+文件: [旧 AS_LoginVC <--> 新 AH_ScreenController]    函数名称: clickSwitchButton
+文件: [旧 AS_LoginVC <--> 新 AH_ScreenController]    函数名称: clickShowPasswordButton
+文件: [旧 AS_LoginVC <--> 新 AH_ScreenController]    函数名称: clickActionButton
+文件: [旧 AS_LoginVC <--> 新 AH_ScreenController]    函数名称: updateModeUI
+文件: [旧 AS_LoginVC <--> 新 AH_ScreenController]    函数名称: clickBackButton
+文件: [旧 AS_LoginVC <--> 新 AH_ScreenController]    函数名称: setupActions
+文件: [旧 AS_LoginVC <--> 新 AH_ScreenController]    函数名称: setupUI
+文件: [旧 AS_InfoVC <--> 新 AH_PaintDetailController]    函数名称: clickSignInButton
+文件: [旧 AS_InfoVC <--> 新 AH_PaintDetailController]    函数名称: clickClearNameButton
+文件: [旧 AS_InfoVC <--> 新 AH_PaintDetailController]    函数名称: clickConfirmButton
+文件: [旧 AS_InfoVC <--> 新 AH_PaintDetailController]    函数名称: setupUI
+文件: [旧 AS_InfoVC <--> 新 AH_PaintDetailController]    函数名称: clickCameraButton
+文件: [旧 AS_InfoVC <--> 新 AH_PaintDetailController]    函数名称: setupActions
+文件: [旧 AS_InfoVC <--> 新 AH_PaintDetailController]    函数名称: updateClearNameButtonVisibility
+文件: [旧 AS_InfoVC <--> 新 AH_PaintDetailController]    函数名称: nameFieldDidChange
+文件: [旧 AS_InfoVC <--> 新 AH_PaintDetailController]    函数名称: clickBackButton
+文件: [旧 AS_WelcomeVC <--> 新 AH_NetworkController]    函数名称: clickCreateButton
+文件: [旧 AS_WelcomeVC <--> 新 AH_NetworkController]    函数名称: handleAppleAuthorization
+文件: [旧 AS_WelcomeVC <--> 新 AH_NetworkController]    函数名称: didTapPrivacyPolicy
+文件: [旧 AS_WelcomeVC <--> 新 AH_NetworkController]    函数名称: setupUI
+文件: [旧 AS_WelcomeVC <--> 新 AH_NetworkController]    函数名称: characterIndex
+文件: [旧 AS_WelcomeVC <--> 新 AH_NetworkController]    函数名称: clickSignButton
+文件: [旧 AS_WelcomeVC <--> 新 AH_NetworkController]    函数名称: clickAppleButton
+文件: [旧 AS_WelcomeVC <--> 新 AH_NetworkController]    函数名称: handleAgreementTap
+文件: [旧 AS_WelcomeVC <--> 新 AH_NetworkController]    函数名称: configureAgreementLabel
+文件: [旧 AS_WelcomeVC <--> 新 AH_NetworkController]    函数名称: didTapUserAgreement
+文件: [旧 UIColor+Extension <--> 新 AH_Main]    函数名称: hex
+文件: [旧 AS_NetworkTool <--> 新 AH_RoomModity]    函数名称: showLoadingIfNeeded
+文件: [旧 AS_NetworkTool <--> 新 AH_RoomModity]    函数名称: dismissLoadingIfNeeded
+文件: [旧 AS_IAPManager <--> 新 AH_Black]    函数名称: loadProducts
+文件: [旧 AS_IAPManager <--> 新 AH_Black]    函数名称: purchase
+文件: [旧 AS_IAPManager <--> 新 AH_Black]    函数名称: verify
+文件: [旧 AS_IAPManager <--> 新 AH_Black]    函数名称: listenForTransactions
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen]    函数名称: isMutualFollow
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen]    函数名称: setFollowing
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen]    函数名称: persistFollowingIds
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen]    函数名称: toggleFollowing
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen]    函数名称: isBlacklisted
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen]    函数名称: addToBlacklist
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen]    函数名称: blockUser
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen]    函数名称: removeFromBlacklist
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen]    函数名称: persistBlacklistedIds
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen]    函数名称: updatePostLike
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen]    函数名称: deletePost
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen]    函数名称: addComment
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen]    函数名称: deleteComment
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen]    函数名称: deleteAnswer
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen]    函数名称: removeCommentFromOwnedPost
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen]    函数名称: appendCommentToOwnedPost
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen]    函数名称: publishQuestion
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen]    函数名称: publishImagePost
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen]    函数名称: addCoins
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen]    函数名称: followerUserIds
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen]    函数名称: applyUserIds
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen]    函数名称: updateProfile
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen]    函数名称: restoreSession
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen]    函数名称: login
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen]    函数名称: loginWithApple
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen]    函数名称: logout
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen]    函数名称: deleteAccount
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen]    函数名称: switchToMainInterface
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen]    函数名称: switchToWelcomeInterface
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen]    函数名称: applyUserPostItem
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen]    函数名称: applyLocalUserPostItem
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen]    函数名称: syncFollowCount
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen]    函数名称: switchRootViewController
+文件: [旧 UIImage+Resource <--> 新 AH_SculptureCurrent]    函数名称: as_resource
+文件: [旧 UIImage+Resource <--> 新 AH_SculptureCurrent]    函数名称: as_videoThumbnail
+文件: [旧 UIImage+Resource <--> 新 AH_SculptureCurrent]    函数名称: as_resolveStoredImagePath
+文件: [旧 UIImage+Resource <--> 新 AH_SculptureCurrent]    函数名称: as_postImagesDirectoryURL
+文件: [旧 UIImage+Resource <--> 新 AH_SculptureCurrent]    函数名称: as_normalizeStoredImagePath
+文件: [旧 UIImage+Resource <--> 新 AH_SculptureCurrent]    函数名称: as_saveToDocuments
+文件: [旧 UIImage+Resource <--> 新 AH_SculptureCurrent]    函数名称: as_videoURL
+文件: [旧 AS_ChatData <--> 新 AH_AvatarQuestion]    函数名称: storageKey
+文件: [旧 AS_ChatData <--> 新 AH_AvatarQuestion]    函数名称: loadConversations
+文件: [旧 AS_ChatData <--> 新 AH_AvatarQuestion]    函数名称: saveConversations
+文件: [旧 AS_ChatData <--> 新 AH_AvatarQuestion]    函数名称: appendMessage
+文件: [旧 AS_ChatData <--> 新 AH_AvatarQuestion]    函数名称: chatHistories
+文件: [旧 AS_ChatData <--> 新 AH_AvatarQuestion]    函数名称: removeConversation
+文件: [旧 AS_ChatData <--> 新 AH_AvatarQuestion]    函数名称: deleteAllConversations
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: defaultFollowingIds
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: saveFollowingIds
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: blacklistedIds
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: saveBlacklistedUserIds
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: addBlacklistedUser
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: removeBlacklistedUser
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: isAppleUser
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: loadAppleUsers
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: persistAppleUsers
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: saveAppleUser
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: removeAppleUser
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: appleUserPostItem
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: isRegisteredUser
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: loadRegisteredUsers
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: persistRegisteredUsers
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: saveRegisteredUser
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: persistLocalUserProfile
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: removeRegisteredUser
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: registeredUserPostItem
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: isLocalUser
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: defaultFollowerIds
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: isPostLiked
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: setPostLiked
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: postApplyingLikeState
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: loadUserComments
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: persistUserComments
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: savedComments
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: appendUserComment
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: removeUserComment
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: markCommentHidden
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: postApplyingHiddenComments
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: postApplyingSavedComments
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: postApplyingUserState
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: isPostDeleted
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: markPostDeleted
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: postsApplyingDeletedFilter
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: postsApplyingBlacklistFilter
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: postsApplyingFeedFilters
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: deleteAllUserData
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: createdPosts
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: savedProfile
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: saveProfile
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: updateCreatedPostsUserInfo
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: savedCoins
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: saveCoins
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: createdPosts
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: appendCreatedPost
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: removeCreatedPost
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: saveCreatedPosts
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: migrateCreatedPostPaths
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: mergeUserSessionData
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: imagePost
+文件: [旧 AS_UserData <--> 新 AH_ModityPost]    函数名称: videoPost
+文件: [旧 AS_QuestionData <--> 新 AH_Answer]    函数名称: makeQuestion
+文件: [旧 AS_QuestionData <--> 新 AH_Answer]    函数名称: createdQuestions
+文件: [旧 AS_QuestionData <--> 新 AH_Answer]    函数名称: loadUserAnswers
+文件: [旧 AS_QuestionData <--> 新 AH_Answer]    函数名称: persistUserAnswers
+文件: [旧 AS_QuestionData <--> 新 AH_Answer]    函数名称: savedAnswers
+文件: [旧 AS_QuestionData <--> 新 AH_Answer]    函数名称: appendUserAnswer
+文件: [旧 AS_QuestionData <--> 新 AH_Answer]    函数名称: removeUserAnswer
+文件: [旧 AS_QuestionData <--> 新 AH_Answer]    函数名称: markAnswerHidden
+文件: [旧 AS_QuestionData <--> 新 AH_Answer]    函数名称: questionApplyingSavedAnswers
+文件: [旧 AS_QuestionData <--> 新 AH_Answer]    函数名称: createdQuestions
+文件: [旧 AS_QuestionData <--> 新 AH_Answer]    函数名称: appendCreatedQuestion
+文件: [旧 AS_QuestionData <--> 新 AH_Answer]    函数名称: saveCreatedQuestions
+文件: [旧 AS_QuestionData <--> 新 AH_Answer]    函数名称: deleteAllUserData
+文件: [旧 AS_TabbarVC <--> 新 AH_DataController]    函数名称: setupTabBarAppearance
+文件: [旧 AS_TabbarVC <--> 新 AH_DataController]    函数名称: setupTabBarLayer
+文件: [旧 AS_TabbarVC <--> 新 AH_DataController]    函数名称: setupViewControllers
+
+
+开始混淆函数里面局部变量名称。。。。。。。
+文件: [旧 AS_BlackListVC <--> 新 AH_SetupDelegateController] 局部变量: userId -> fans
+文件: [旧 AS_ShopVC <--> 新 AH_ManagerController] 局部变量: coins -> confirm
+文件: [旧 AS_ShopVC <--> 新 AH_ManagerController] 局部变量: width -> built
+文件: [旧 AS_ShopVC <--> 新 AH_ManagerController] 局部变量: height -> c_count
+文件: [旧 AS_ShopVC <--> 新 AH_ManagerController] 局部变量: formatter -> authorization
+文件: [旧 AS_ShopVC <--> 新 AH_ManagerController] 局部变量: coins -> confirm
+文件: [旧 AS_ShopVC <--> 新 AH_ManagerController] 局部变量: width -> built
+文件: [旧 AS_ShopVC <--> 新 AH_ManagerController] 局部变量: height -> c_count
+文件: [旧 AS_ShopVC <--> 新 AH_ManagerController] 局部变量: item -> sendItem
+文件: [旧 AS_UserData <--> 新 AH_ModityPost] 局部变量: ids -> layout
+文件: [旧 AS_UserData <--> 新 AH_ModityPost] 局部变量: ids -> layout
+文件: [旧 AS_UserData <--> 新 AH_ModityPost] 局部变量: users -> blacklisted
+文件: [旧 AS_UserData <--> 新 AH_ModityPost] 局部变量: users -> blacklisted
+文件: [旧 AS_UserData <--> 新 AH_ModityPost] 局部变量: stored -> back
+文件: [旧 AS_UserData <--> 新 AH_ModityPost] 局部变量: users -> blacklisted
+文件: [旧 AS_UserData <--> 新 AH_ModityPost] 局部变量: users -> blacklisted
+文件: [旧 AS_UserData <--> 新 AH_ModityPost] 局部变量: users -> blacklisted
+文件: [旧 AS_UserData <--> 新 AH_ModityPost] 局部变量: stored -> back
+文件: [旧 AS_UserData <--> 新 AH_ModityPost] 局部变量: stored -> back
+文件: [旧 AS_UserData <--> 新 AH_ModityPost] 局部变量: users -> blacklisted
+文件: [旧 AS_UserData <--> 新 AH_ModityPost] 局部变量: defaultFollowers -> test2
+文件: [旧 AS_UserData <--> 新 AH_ModityPost] 局部变量: savedFollowers -> permission
+文件: [旧 AS_UserData <--> 新 AH_ModityPost] 局部变量: dynamicFollowers -> followers
+文件: [旧 AS_UserData <--> 新 AH_ModityPost] 局部变量: comments -> bind
+文件: [旧 AS_UserData <--> 新 AH_ModityPost] 局部变量: comments -> bind
+文件: [旧 AS_UserData <--> 新 AH_ModityPost] 局部变量: comments -> bind
+文件: [旧 AS_UserData <--> 新 AH_ModityPost] 局部变量: existingIds -> changed
+文件: [旧 AS_UserData <--> 新 AH_ModityPost] 局部变量: saved -> main_t
+文件: [旧 AS_UserData <--> 新 AH_ModityPost] 局部变量: blacklisted -> person
+文件: [旧 AS_UserData <--> 新 AH_ModityPost] 局部变量: profile -> price
+文件: [旧 AS_UserData <--> 新 AH_ModityPost] 局部变量: posts -> home
+文件: [旧 AS_UserData <--> 新 AH_ModityPost] 局部变量: changed -> posts3
+文件: [旧 AS_UserData <--> 新 AH_ModityPost] 局部变量: posts -> home
+文件: [旧 AS_UserData <--> 新 AH_ModityPost] 局部变量: post -> p_player
+文件: [旧 AS_UserData <--> 新 AH_ModityPost] 局部变量: posts -> home
+文件: [旧 AS_UserData <--> 新 AH_ModityPost] 局部变量: posts -> home
+文件: [旧 AS_UserData <--> 新 AH_ModityPost] 局部变量: posts -> home
+文件: [旧 AS_UserData <--> 新 AH_ModityPost] 局部变量: normalizedPosts -> updates
+文件: [旧 AS_UserData <--> 新 AH_ModityPost] 局部变量: post -> p_player
+文件: [旧 AS_UserData <--> 新 AH_ModityPost] 局部变量: user -> ageS
+文件: [旧 AS_UserData <--> 新 AH_ModityPost] 局部变量: basePosts -> capture
+文件: [旧 AS_UserData <--> 新 AH_ModityPost] 局部变量: created -> questions
+文件: [旧 AS_UserData <--> 新 AH_ModityPost] 局部变量: baseIds -> container
+文件: [旧 AS_UserData <--> 新 AH_ModityPost] 局部变量: mergedPosts -> time_k
+文件: [旧 AS_UserData <--> 新 AH_ModityPost] 局部变量: author -> updatesA
+文件: [旧 AS_QuestionListCell <--> 新 AH_RoomCommentCell] 局部变量: path -> delete_t
+文件: [旧 AS_QuestionListCell <--> 新 AH_RoomCommentCell] 局部变量: view -> previewView
+文件: [旧 AS_EditVC <--> 新 AH_MessageController] 局部变量: picker -> credential
+文件: [旧 AS_EditVC <--> 新 AH_MessageController] 局部变量: age -> ocopy_7o
+文件: [旧 AS_EditVC <--> 新 AH_MessageController] 局部变量: avatarPath -> participant
+文件: [旧 AS_EditVC <--> 新 AH_MessageController] 局部变量: hasText -> attributes
+文件: [旧 AS_EditVC <--> 新 AH_MessageController] 局部变量: button -> glyphButton
+文件: [旧 AS_EditVC <--> 新 AH_MessageController] 局部变量: image -> storeImage
+文件: [旧 AS_EditVC <--> 新 AH_MessageController] 局部变量: iconSize -> description_fm
+文件: [旧 AS_EditVC <--> 新 AH_MessageController] 局部变量: rightPadding -> detail
+文件: [旧 AS_EditVC <--> 新 AH_MessageController] 局部变量: height -> c_count
+文件: [旧 AS_EditVC <--> 新 AH_MessageController] 局部变量: width -> built
+文件: [旧 AS_EditVC <--> 新 AH_MessageController] 局部变量: container -> addY
+文件: [旧 AS_EditVC <--> 新 AH_MessageController] 局部变量: field -> person
+文件: [旧 AS_EditVC <--> 新 AH_MessageController] 局部变量: image -> storeImage
+文件: [旧 AS_DiscoverTimeCell <--> 新 AH_TabbarUserCell] 局部变量: alert -> network
+文件: [旧 AS_DiscoverTimeCell <--> 新 AH_TabbarUserCell] 局部变量: reportVC -> dataController
+文件: [旧 AS_DiscoverTimeCell <--> 新 AH_TabbarUserCell] 局部变量: tap -> built
+文件: [旧 AS_IAPManager <--> 新 AH_Black] 局部变量: ids -> layout
+文件: [旧 AS_IAPManager <--> 新 AH_Black] 局部变量: transaction -> gradient
+文件: [旧 AS_LoginVC <--> 新 AH_ScreenController] 局部变量: email -> reverse
+文件: [旧 AS_LoginVC <--> 新 AH_ScreenController] 局部变量: password -> show
+文件: [旧 AS_LoginVC <--> 新 AH_ScreenController] 局部变量: button -> glyphButton
+文件: [旧 AS_LoginVC <--> 新 AH_ScreenController] 局部变量: image -> storeImage
+文件: [旧 AS_LoginVC <--> 新 AH_ScreenController] 局部变量: iconSize -> description_fm
+文件: [旧 AS_LoginVC <--> 新 AH_ScreenController] 局部变量: rightPadding -> detail
+文件: [旧 AS_LoginVC <--> 新 AH_ScreenController] 局部变量: height -> c_count
+文件: [旧 AS_LoginVC <--> 新 AH_ScreenController] 局部变量: width -> built
+文件: [旧 AS_LoginVC <--> 新 AH_ScreenController] 局部变量: container -> addY
+文件: [旧 AS_LoginVC <--> 新 AH_ScreenController] 局部变量: field -> person
+文件: [旧 AS_QuestionDetailVC <--> 新 AH_InfoController] 局部变量: width -> built
+文件: [旧 AS_QuestionDetailVC <--> 新 AH_InfoController] 局部变量: item -> sendItem
+文件: [旧 AS_QuestionDetailVC <--> 新 AH_InfoController] 局部变量: height -> c_count
+文件: [旧 AS_QuestionDetailVC <--> 新 AH_InfoController] 局部变量: currentHeader -> personHeader
+文件: [旧 AS_QuestionDetailVC <--> 新 AH_InfoController] 局部变量: sizeChanged -> appearance
+文件: [旧 AS_QuestionDetailVC <--> 新 AH_InfoController] 局部变量: answerAvatarPaths -> photo
+文件: [旧 AS_QuestionDetailVC <--> 新 AH_InfoController] 局部变量: avatarPaths -> l_width
+文件: [旧 AS_QuestionDetailVC <--> 新 AH_InfoController] 局部变量: item -> sendItem
+文件: [旧 AS_QuestionDetailVC <--> 新 AH_InfoController] 局部变量: width -> built
+文件: [旧 AS_QuestionDetailVC <--> 新 AH_InfoController] 局部变量: height -> c_count
+文件: [旧 AS_QuestionDetailVC <--> 新 AH_InfoController] 局部变量: view -> previewView
+文件: [旧 AS_QuestionDetailVC <--> 新 AH_InfoController] 局部变量: answer -> messages
+文件: [旧 AS_QuestionDetailVC <--> 新 AH_InfoController] 局部变量: alert -> network
+文件: [旧 AS_QuestionDetailVC <--> 新 AH_InfoController] 局部变量: reportVC -> dataController
+文件: [旧 AS_QuestionDetailVC <--> 新 AH_InfoController] 局部变量: trimmed -> media
+文件: [旧 AS_QuestionDetailVC <--> 新 AH_InfoController] 局部变量: answer -> messages
+文件: [旧 AS_QuestionDetailVC <--> 新 AH_InfoController] 局部变量: item -> sendItem
+文件: [旧 AS_QuestionDetailVC <--> 新 AH_InfoController] 局部变量: indexPath -> tool
+文件: [旧 UIImage+Resource <--> 新 AH_SculptureCurrent] 局部变量: image -> storeImage
+文件: [旧 UIImage+Resource <--> 新 AH_SculptureCurrent] 局部变量: fileName -> play
+文件: [旧 UIImage+Resource <--> 新 AH_SculptureCurrent] 局部变量: fileExtension -> base
+文件: [旧 UIImage+Resource <--> 新 AH_SculptureCurrent] 局部变量: resourceName -> reuse
+文件: [旧 UIImage+Resource <--> 新 AH_SculptureCurrent] 局部变量: bundlePath -> status
+文件: [旧 UIImage+Resource <--> 新 AH_SculptureCurrent] 局部变量: fileName -> play
+文件: [旧 UIImage+Resource <--> 新 AH_SculptureCurrent] 局部变量: fileExtension -> base
+文件: [旧 UIImage+Resource <--> 新 AH_SculptureCurrent] 局部变量: resourceName -> reuse
+文件: [旧 UIImage+Resource <--> 新 AH_SculptureCurrent] 局部变量: asset -> user
+文件: [旧 UIImage+Resource <--> 新 AH_SculptureCurrent] 局部变量: generator -> launch
+文件: [旧 UIImage+Resource <--> 新 AH_SculptureCurrent] 局部变量: cgImage -> historyImage
+文件: [旧 UIImage+Resource <--> 新 AH_SculptureCurrent] 局部变量: normalizedPath -> formatter
+文件: [旧 UIImage+Resource <--> 新 AH_SculptureCurrent] 局部变量: fileName -> play
+文件: [旧 UIImage+Resource <--> 新 AH_SculptureCurrent] 局部变量: resolvedPath -> trimmed
+文件: [旧 UIImage+Resource <--> 新 AH_SculptureCurrent] 局部变量: fileName -> play
+文件: [旧 UIImage+Resource <--> 新 AH_SculptureCurrent] 局部变量: directory -> formatterz
+文件: [旧 UIImage+Resource <--> 新 AH_SculptureCurrent] 局部变量: fileName -> play
+文件: [旧 UIImage+Resource <--> 新 AH_SculptureCurrent] 局部变量: fileURL -> bundle
+文件: [旧 UIImage+Resource <--> 新 AH_SculptureCurrent] 局部变量: fileName -> play
+文件: [旧 UIImage+Resource <--> 新 AH_SculptureCurrent] 局部变量: fileExtension -> base
+文件: [旧 UIImage+Resource <--> 新 AH_SculptureCurrent] 局部变量: resourceName -> reuse
+文件: [旧 AS_VideoVC <--> 新 AH_LaunchDiscoverController] 局部变量: playerItem -> currentItem
+文件: [旧 AS_VideoVC <--> 新 AH_LaunchDiscoverController] 局部变量: player -> names
+文件: [旧 AS_VideoVC <--> 新 AH_LaunchDiscoverController] 局部变量: playerLayer -> reusable
+文件: [旧 AS_VideoVC <--> 新 AH_LaunchDiscoverController] 局部变量: commentView -> dimmingView
+文件: [旧 AS_VideoVC <--> 新 AH_LaunchDiscoverController] 局部变量: stackView -> displayView
+文件: [旧 AS_VideoVC <--> 新 AH_LaunchDiscoverController] 局部变量: item -> sendItem
+文件: [旧 AS_VideoVC <--> 新 AH_LaunchDiscoverController] 局部变量: alert -> network
+文件: [旧 AS_VideoVC <--> 新 AH_LaunchDiscoverController] 局部变量: reportVC -> dataController
+文件: [旧 AS_AddQuestionVC <--> 新 AH_InfoContactController] 局部变量: content -> presenting
+文件: [旧 AS_AddQuestionVC <--> 新 AH_InfoContactController] 局部变量: font -> answer
+文件: [旧 AS_AddQuestionVC <--> 新 AH_InfoContactController] 局部变量: textColor -> bundle
+文件: [旧 AS_AddQuestionVC <--> 新 AH_InfoContactController] 局部变量: paragraphStyle -> message
+文件: [旧 AS_AddQuestionVC <--> 新 AH_InfoContactController] 局部变量: attributes -> formatter
+文件: [旧 AS_AddQuestionVC <--> 新 AH_InfoContactController] 局部变量: attributedText -> target
+文件: [旧 AS_AddQuestionVC <--> 新 AH_InfoContactController] 局部变量: attachment -> type_6j
+文件: [旧 AS_AddQuestionVC <--> 新 AH_InfoContactController] 局部变量: iconSize -> description_fm
+文件: [旧 AS_ChatRoomMessageCell <--> 新 AH_ReleaseCell] 局部变量: isOutgoing -> sculpture
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen] 局部变量: trimmed -> media
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen] 局部变量: comment -> create
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen] 局部变量: trimmed -> media
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen] 局部变量: question -> spacing
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen] 局部变量: post -> p_player
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen] 局部变量: followers -> horizontal
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen] 局部变量: trimmedName -> dynamic_en
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen] 局部变量: normalizedAvatar -> i_count
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen] 局部变量: normalizedEmail -> controller
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen] 局部变量: normalizedPassword -> change
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen] 局部变量: stored -> back
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen] 局部变量: welcome -> directory
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen] 局部变量: user -> ageS
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen] 局部变量: user -> ageS
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen] 局部变量: item -> sendItem
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen] 局部变量: user -> ageS
+文件: [旧 AS_CurrentUser <--> 新 AH_Screen] 局部变量: followingIds -> green
+文件: [旧 AS_WelcomeVC <--> 新 AH_NetworkController] 局部变量: agreementTap -> formatter
+文件: [旧 AS_WelcomeVC <--> 新 AH_NetworkController] 局部变量: userId -> fansz
+文件: [旧 AS_WelcomeVC <--> 新 AH_NetworkController] 局部变量: existingUser -> overlay
+文件: [旧 AS_WelcomeVC <--> 新 AH_NetworkController] 局部变量: name -> setup
+文件: [旧 AS_WelcomeVC <--> 新 AH_NetworkController] 局部变量: formatter -> authorization
+文件: [旧 AS_WelcomeVC <--> 新 AH_NetworkController] 局部变量: email -> reverse
+文件: [旧 AS_WelcomeVC <--> 新 AH_NetworkController] 局部变量: user -> ageS
+文件: [旧 AS_WelcomeVC <--> 新 AH_NetworkController] 局部变量: textStorage -> p_view
+文件: [旧 AS_WelcomeVC <--> 新 AH_NetworkController] 局部变量: layoutManager -> content
+文件: [旧 AS_WelcomeVC <--> 新 AH_NetworkController] 局部变量: textContainer -> normalized
+文件: [旧 AS_WelcomeVC <--> 新 AH_NetworkController] 局部变量: glyphIndex -> art
+文件: [旧 AS_WelcomeVC <--> 新 AH_NetworkController] 局部变量: provider -> tapped
+文件: [旧 AS_WelcomeVC <--> 新 AH_NetworkController] 局部变量: request -> permission
+文件: [旧 AS_WelcomeVC <--> 新 AH_NetworkController] 局部变量: controller -> photoController
+文件: [旧 AS_WelcomeVC <--> 新 AH_NetworkController] 局部变量: label -> profileLabel
+文件: [旧 AS_WelcomeVC <--> 新 AH_NetworkController] 局部变量: attributedText -> target
+文件: [旧 AS_WelcomeVC <--> 新 AH_NetworkController] 局部变量: text -> button
+文件: [旧 AS_WelcomeVC <--> 新 AH_NetworkController] 局部变量: location -> questions
+文件: [旧 AS_WelcomeVC <--> 新 AH_NetworkController] 局部变量: index -> screen
+文件: [旧 AS_WelcomeVC <--> 新 AH_NetworkController] 局部变量: userAgreementRange -> apple
+文件: [旧 AS_WelcomeVC <--> 新 AH_NetworkController] 局部变量: privacyPolicyRange -> agreement
+文件: [旧 AS_WelcomeVC <--> 新 AH_NetworkController] 局部变量: fullText -> checked
+文件: [旧 AS_WelcomeVC <--> 新 AH_NetworkController] 局部变量: attributedText -> target
+文件: [旧 AS_WelcomeVC <--> 新 AH_NetworkController] 局部变量: userAgreementRange -> apple
+文件: [旧 AS_WelcomeVC <--> 新 AH_NetworkController] 局部变量: privacyPolicyRange -> agreement
+文件: [旧 AS_WelcomeVC <--> 新 AH_NetworkController] 局部变量: nsError -> follow
+文件: [旧 AS_ChatVC <--> 新 AH_EmptyController] 局部变量: isEmpty -> setup
+文件: [旧 AS_ChatVC <--> 新 AH_EmptyController] 局部变量: isChatSelected -> provider
+文件: [旧 AS_ChatVC <--> 新 AH_EmptyController] 局部变量: tableView -> t_playerView
+文件: [旧 AS_ChatVC <--> 新 AH_EmptyController] 局部变量: tableView -> t_playerView
+文件: [旧 AS_ChatVC <--> 新 AH_EmptyController] 局部变量: item -> sendItem
+文件: [旧 AS_ChatVC <--> 新 AH_EmptyController] 局部变量: roomVC -> extension_3nController
+文件: [旧 AS_ChatVC <--> 新 AH_EmptyController] 局部变量: deleteAction -> saved
+文件: [旧 AS_ChatVC <--> 新 AH_EmptyController] 局部变量: peerUserId -> posts
+文件: [旧 AS_ChatVC <--> 新 AH_EmptyController] 局部变量: configuration -> fallback
+文件: [旧 AS_ProfileHeaderView <--> 新 AH_ModityView] 局部变量: header -> applicationHeader
+文件: [旧 AS_ProfileHeaderView <--> 新 AH_ModityView] 局部变量: text -> button
+文件: [旧 AS_ProfileHeaderView <--> 新 AH_ModityView] 局部变量: attributedText -> target
+文件: [旧 AS_ProfileHeaderView <--> 新 AH_ModityView] 局部变量: countText -> deleted
+文件: [旧 AS_ProfileHeaderView <--> 新 AH_ModityView] 局部变量: nsRange -> conversations
+文件: [旧 AS_NetworkTool <--> 新 AH_RoomModity] 局部变量: configuration -> fallback
+文件: [旧 AS_NetworkTool <--> 新 AH_RoomModity] 局部变量: task -> dimming
+文件: [旧 AS_PersonVC <--> 新 AH_ExtensionController] 局部变量: width -> built
+文件: [旧 AS_PersonVC <--> 新 AH_ExtensionController] 局部变量: height -> c_count
+文件: [旧 AS_PersonVC <--> 新 AH_ExtensionController] 局部变量: view -> previewView
+文件: [旧 AS_PersonVC <--> 新 AH_ExtensionController] 局部变量: detailVC -> attachmentController
+文件: [旧 AS_PersonVC <--> 新 AH_ExtensionController] 局部变量: alert -> network
+文件: [旧 AS_PersonVC <--> 新 AH_ExtensionController] 局部变量: roomVC -> extension_3nController
+文件: [旧 AS_DiscoverCommentCell <--> 新 AH_UserNewsCell] 局部变量: tap -> built
+文件: [旧 AS_ContactUsVC <--> 新 AH_EditLaunchController] 局部变量: longPress -> configuration
+文件: [旧 AS_ContactUsVC <--> 新 AH_EditLaunchController] 局部变量: button -> glyphButton
+文件: [旧 AS_QuestionListVC <--> 新 AH_EditMainController] 局部变量: item -> sendItem
+文件: [旧 AS_HomeVC <--> 新 AH_VisualDataController] 局部变量: localVideoPosts -> catalog
+文件: [旧 AS_HomeVC <--> 新 AH_VisualDataController] 局部变量: currentVideoPosts -> button
+文件: [旧 AS_HomeVC <--> 新 AH_VisualDataController] 局部变量: currentPostIds -> launch
+文件: [旧 AS_HomeVC <--> 新 AH_VisualDataController] 局部变量: otherVideoPosts -> default_tm
+文件: [旧 AS_HomeVC <--> 新 AH_VisualDataController] 局部变量: filteredPosts -> reusable
+文件: [旧 AS_HomeVC <--> 新 AH_VisualDataController] 局部变量: width -> built
+文件: [旧 AS_HomeVC <--> 新 AH_VisualDataController] 局部变量: horizontalInset -> control
+文件: [旧 AS_HomeVC <--> 新 AH_VisualDataController] 局部变量: spacing -> deleted
+文件: [旧 AS_HomeVC <--> 新 AH_VisualDataController] 局部变量: width -> built
+文件: [旧 AS_HomeVC <--> 新 AH_VisualDataController] 局部变量: height -> c_count
+文件: [旧 AS_HomeVC <--> 新 AH_VisualDataController] 局部变量: layout -> person
+文件: [旧 AS_HomeVC <--> 新 AH_VisualDataController] 局部变量: header -> applicationHeader
+文件: [旧 AS_HomeVC <--> 新 AH_VisualDataController] 局部变量: width -> built
+文件: [旧 AS_HomeVC <--> 新 AH_VisualDataController] 局部变量: height -> c_count
+文件: [旧 AS_VideoListVC <--> 新 AH_WelcomeController] 局部变量: videoCategory -> add
+文件: [旧 AS_VideoListVC <--> 新 AH_WelcomeController] 局部变量: localVideoPosts -> catalog
+文件: [旧 AS_VideoListVC <--> 新 AH_WelcomeController] 局部变量: currentVideoPosts -> button
+文件: [旧 AS_VideoListVC <--> 新 AH_WelcomeController] 局部变量: currentPostIds -> launch
+文件: [旧 AS_VideoListVC <--> 新 AH_WelcomeController] 局部变量: otherVideoPosts -> default_tm
+文件: [旧 AS_VideoListVC <--> 新 AH_WelcomeController] 局部变量: width -> built
+文件: [旧 AS_VideoListVC <--> 新 AH_WelcomeController] 局部变量: horizontalInset -> control
+文件: [旧 AS_VideoListVC <--> 新 AH_WelcomeController] 局部变量: spacing -> deleted
+文件: [旧 AS_VideoListVC <--> 新 AH_WelcomeController] 局部变量: width -> built
+文件: [旧 AS_VideoListVC <--> 新 AH_WelcomeController] 局部变量: imageHeight -> text
+文件: [旧 AS_VideoListVC <--> 新 AH_WelcomeController] 局部变量: captionHeight -> message
+文件: [旧 AS_VideoListVC <--> 新 AH_WelcomeController] 局部变量: height -> c_count
+文件: [旧 AS_VideoListVC <--> 新 AH_WelcomeController] 局部变量: layout -> person
+文件: [旧 AS_TabbarVC <--> 新 AH_DataController] 局部变量: appearance -> login
+文件: [旧 AS_TabbarVC <--> 新 AH_DataController] 局部变量: itemAppearance -> delete_15
+文件: [旧 AS_TabbarVC <--> 新 AH_DataController] 局部变量: cornerRadius -> question
+文件: [旧 AS_TabbarVC <--> 新 AH_DataController] 局部变量: path -> delete_t
+文件: [旧 AS_TabbarVC <--> 新 AH_DataController] 局部变量: controller -> photoController
+文件: [旧 AS_QuestionDetailHeaderView <--> 新 AH_ResourceView] 局部变量: header -> applicationHeader
+文件: [旧 AS_QuestionDetailHeaderView <--> 新 AH_ResourceView] 局部变量: path -> delete_t
+文件: [旧 AS_QuestionDetailHeaderView <--> 新 AH_ResourceView] 局部变量: view -> previewView
+文件: [旧 AS_InfoVC <--> 新 AH_PaintDetailController] 局部变量: name -> setup
+文件: [旧 AS_InfoVC <--> 新 AH_PaintDetailController] 局部变量: age -> ocopy_7o
+文件: [旧 AS_InfoVC <--> 新 AH_PaintDetailController] 局部变量: avatarPath -> participant
+文件: [旧 AS_InfoVC <--> 新 AH_PaintDetailController] 局部变量: user -> ageS
+文件: [旧 AS_InfoVC <--> 新 AH_PaintDetailController] 局部变量: picker -> credential
+文件: [旧 AS_InfoVC <--> 新 AH_PaintDetailController] 局部变量: hasText -> attributes
+文件: [旧 AS_InfoVC <--> 新 AH_PaintDetailController] 局部变量: button -> glyphButton
+文件: [旧 AS_InfoVC <--> 新 AH_PaintDetailController] 局部变量: image -> storeImage
+文件: [旧 AS_InfoVC <--> 新 AH_PaintDetailController] 局部变量: iconSize -> description_fm
+文件: [旧 AS_InfoVC <--> 新 AH_PaintDetailController] 局部变量: rightPadding -> detail
+文件: [旧 AS_InfoVC <--> 新 AH_PaintDetailController] 局部变量: height -> c_count
+文件: [旧 AS_InfoVC <--> 新 AH_PaintDetailController] 局部变量: width -> built
+文件: [旧 AS_InfoVC <--> 新 AH_PaintDetailController] 局部变量: container -> addY
+文件: [旧 AS_InfoVC <--> 新 AH_PaintDetailController] 局部变量: field -> person
+文件: [旧 AS_InfoVC <--> 新 AH_PaintDetailController] 局部变量: image -> storeImage
+文件: [旧 AS_DiscoverReleaseView <--> 新 AH_LoginSetupView] 局部变量: font -> answer
+文件: [旧 AS_DiscoverReleaseView <--> 新 AH_LoginSetupView] 局部变量: textColor -> bundle
+文件: [旧 AS_DiscoverReleaseView <--> 新 AH_LoginSetupView] 局部变量: paragraphStyle -> message
+文件: [旧 AS_DiscoverReleaseView <--> 新 AH_LoginSetupView] 局部变量: attributes -> formatter
+文件: [旧 AS_DiscoverReleaseView <--> 新 AH_LoginSetupView] 局部变量: attributedText -> target
+文件: [旧 AS_DiscoverReleaseView <--> 新 AH_LoginSetupView] 局部变量: attachment -> type_6j
+文件: [旧 AS_DiscoverReleaseView <--> 新 AH_LoginSetupView] 局部变量: iconSize -> description_fm
+文件: [旧 AS_DiscoverReleaseView <--> 新 AH_LoginSetupView] 局部变量: picker -> credential
+文件: [旧 AS_DiscoverReleaseView <--> 新 AH_LoginSetupView] 局部变量: image -> storeImage
+文件: [旧 AppDelegate <--> 新 AppDelegate] 局部变量: launchVC -> hangController
+文件: [旧 AppDelegate <--> 新 AppDelegate] 局部变量: welcome -> directory
+文件: [旧 AS_DiscoverDetailHeaderView <--> 新 AH_LaunchToolView] 局部变量: header -> applicationHeader
+文件: [旧 AS_DiscoverDetailHeaderView <--> 新 AH_LaunchToolView] 局部变量: tap -> built
+文件: [旧 AS_HomeHeaderView <--> 新 AH_BlackCurrentView] 局部变量: header -> applicationHeader
+文件: [旧 AS_HomeHeaderView <--> 新 AH_BlackCurrentView] 局部变量: tap -> built
+文件: [旧 AS_HomeHeaderView <--> 新 AH_BlackCurrentView] 局部变量: path -> delete_t
+文件: [旧 AS_HomeHeaderView <--> 新 AH_BlackCurrentView] 局部变量: view -> previewView
+文件: [旧 AS_VideoCommentView <--> 新 AH_BlackView] 局部变量: indexPath -> tool
+文件: [旧 AS_VideoCommentView <--> 新 AH_BlackView] 局部变量: tap -> built
+文件: [旧 AS_VideoCommentView <--> 新 AH_BlackView] 局部变量: animations -> person
+文件: [旧 AS_VideoCommentView <--> 新 AH_BlackView] 局部变量: completion -> start
+文件: [旧 AS_PersonHeaderView <--> 新 AH_SculptureView] 局部变量: isCurrentUser -> mode
+文件: [旧 AS_PersonHeaderView <--> 新 AH_SculptureView] 局部变量: imageName -> register_91
+文件: [旧 AS_PersonHeaderView <--> 新 AH_SculptureView] 局部变量: text -> button
+文件: [旧 AS_PersonHeaderView <--> 新 AH_SculptureView] 局部变量: attributedText -> target
+文件: [旧 AS_PersonHeaderView <--> 新 AH_SculptureView] 局部变量: countText -> deleted
+文件: [旧 AS_PersonHeaderView <--> 新 AH_SculptureView] 局部变量: nsRange -> conversations
+文件: [旧 AS_DiscoverDetailVC <--> 新 AH_AvatarInfoController] 局部变量: width -> built
+文件: [旧 AS_DiscoverDetailVC <--> 新 AH_AvatarInfoController] 局部变量: height -> c_count
+文件: [旧 AS_DiscoverDetailVC <--> 新 AH_AvatarInfoController] 局部变量: width -> built
+文件: [旧 AS_DiscoverDetailVC <--> 新 AH_AvatarInfoController] 局部变量: height -> c_count
+文件: [旧 AS_DiscoverDetailVC <--> 新 AH_AvatarInfoController] 局部变量: view -> previewView
+文件: [旧 AS_DiscoverDetailVC <--> 新 AH_AvatarInfoController] 局部变量: view -> previewView
+文件: [旧 AS_DiscoverDetailVC <--> 新 AH_AvatarInfoController] 局部变量: postId -> all
+文件: [旧 AS_DiscoverDetailVC <--> 新 AH_AvatarInfoController] 局部变量: comment -> create
+文件: [旧 AS_DiscoverDetailVC <--> 新 AH_AvatarInfoController] 局部变量: alert -> network
+文件: [旧 AS_DiscoverDetailVC <--> 新 AH_AvatarInfoController] 局部变量: reportVC -> dataController
+文件: [旧 AS_DiscoverDetailVC <--> 新 AH_AvatarInfoController] 局部变量: item -> sendItem
+文件: [旧 AS_DiscoverDetailVC <--> 新 AH_AvatarInfoController] 局部变量: indexPath -> tool
+文件: [旧 AS_DiscoverVC <--> 新 AH_HistoryController] 局部变量: localImagePosts -> radius
+文件: [旧 AS_DiscoverVC <--> 新 AH_HistoryController] 局部变量: currentImagePosts -> ids
+文件: [旧 AS_DiscoverVC <--> 新 AH_HistoryController] 局部变量: currentPostIds -> launch
+文件: [旧 AS_DiscoverVC <--> 新 AH_HistoryController] 局部变量: otherImagePosts -> attributes
+文件: [旧 AS_DiscoverVC <--> 新 AH_HistoryController] 局部变量: isTimeSelected -> description_pt
+文件: [旧 AS_DiscoverVC <--> 新 AH_HistoryController] 局部变量: tableView -> t_playerView
+文件: [旧 AS_DiscoverVC <--> 新 AH_HistoryController] 局部变量: item -> sendItem
+文件: [旧 AS_DiscoverVC <--> 新 AH_HistoryController] 局部变量: content -> presenting
+文件: [旧 AS_DiscoverVC <--> 新 AH_HistoryController] 局部变量: imagePath -> saveq
+文件: [旧 AS_ChatRoomVC <--> 新 AH_ContactHistoryController] 局部变量: alert -> network
+文件: [旧 AS_ChatRoomVC <--> 新 AH_ContactHistoryController] 局部变量: indexPath -> tool
+文件: [旧 AS_ChatRoomVC <--> 新 AH_ContactHistoryController] 局部变量: stored -> back
+文件: [旧 AS_ChatRoomVC <--> 新 AH_ContactHistoryController] 局部变量: indexPath -> tool
+文件: [旧 AS_QuestionData <--> 新 AH_Answer] 局部变量: answerAvatars -> completion
+文件: [旧 AS_QuestionData <--> 新 AH_Answer] 局部变量: author -> updatesA
+文件: [旧 AS_QuestionData <--> 新 AH_Answer] 局部变量: answers -> s_player
+文件: [旧 AS_QuestionData <--> 新 AH_Answer] 局部变量: answers -> s_player
+文件: [旧 AS_QuestionData <--> 新 AH_Answer] 局部变量: answers -> s_player
+文件: [旧 AS_QuestionData <--> 新 AH_Answer] 局部变量: existingIds -> changed
+文件: [旧 AS_QuestionData <--> 新 AH_Answer] 局部变量: saved -> main_t
+文件: [旧 AS_QuestionData <--> 新 AH_Answer] 局部变量: merged -> info
+文件: [旧 AS_QuestionData <--> 新 AH_Answer] 局部变量: questions -> d_title
+文件: [旧 AS_QuestionData <--> 新 AH_Answer] 局部变量: questions -> d_title
+文件: [旧 AS_QuestionData <--> 新 AH_Answer] 局部变量: created -> questionsR
+文件: [旧 AS_QuestionData <--> 新 AH_Answer] 局部变量: builtIn -> bottom
+文件: [旧 AS_QuestionData <--> 新 AH_Answer] 局部变量: created -> questionsR
+文件: [旧 AS_QuestionAnswerCell <--> 新 AH_ReleasePersonCell] 局部变量: avatarTap -> mock
+文件: [旧 AS_VideoRoomVC <--> 新 AH_DiscoverController] 局部变量: session -> provider
+文件: [旧 AS_VideoRoomVC <--> 新 AH_DiscoverController] 局部变量: device -> overlay
+文件: [旧 AS_VideoRoomVC <--> 新 AH_DiscoverController] 局部变量: input -> privacy
+文件: [旧 AS_VideoRoomVC <--> 新 AH_DiscoverController] 局部变量: layer -> pending
+文件: [旧 AS_VideoRoomVC <--> 新 AH_DiscoverController] 局部变量: alert -> network
+文件: [旧 AS_VideoRoomVC <--> 新 AH_DiscoverController] 局部变量: status -> request7
+文件: [旧 AS_VideoRoomVC <--> 新 AH_DiscoverController] 局部变量: cameraImageName -> x_layer
+文件: [旧 AS_VideoRoomVC <--> 新 AH_DiscoverController] 局部变量: micImageName -> task
+文件: [旧 AS_VideoRoomVC <--> 新 AH_DiscoverController] 局部变量: device -> overlay
+文件: [旧 AS_VideoRoomVC <--> 新 AH_DiscoverController] 局部变量: newInput -> description_hx
+文件: [旧 AS_ShopHeaderView <--> 新 AH_ShopView] 局部变量: header -> applicationHeader
+文件: [旧 AS_ProfileVC <--> 新 AH_ProfileController] 局部变量: targetSize -> start
+文件: [旧 AS_ProfileVC <--> 新 AH_ProfileController] 局部变量: view -> previewView
+文件: [旧 AS_SetupVC <--> 新 AH_ReusableController] 局部变量: alert -> network
+文件: [旧 AS_ChatData <--> 新 AH_AvatarQuestion] 局部变量: conversations -> task
+文件: [旧 AS_ChatData <--> 新 AH_AvatarQuestion] 局部变量: trimmed -> media
+文件: [旧 AS_ChatData <--> 新 AH_AvatarQuestion] 局部变量: conversationKey -> normalized
+文件: [旧 AS_ChatData <--> 新 AH_AvatarQuestion] 局部变量: conversations -> task
+文件: [旧 AS_ChatData <--> 新 AH_AvatarQuestion] 局部变量: conversation -> placeholder
+文件: [旧 AS_ChatData <--> 新 AH_AvatarQuestion] 局部变量: message -> shared
+文件: [旧 AS_ChatData <--> 新 AH_AvatarQuestion] 局部变量: conversations -> task
+
+
+开始自动生成垃圾代码文件。。。。。。。
+100%👌
+
+
+开始自动融合生成的垃圾代码文件。。。。。。
+100%👌
+
+
+开始自动随机生成属性并插入头文件和源文件。。。。。。。
+[old: ViewController -> new: AH_AvatarController] insert  private var enbaleExisting: Bool? = false
+private var c_layer: Double? = 0.0
+private var httpPurchasingFormatterString: String!
+var infoPermissionsArray: [Any]?
+
+[old: AS_VideoListVC -> new: AH_WelcomeController] insert  var collectionFontSize_d5Str: String!
+var cameraAction_dict: [String: Any]!
+private var modityBlacklistedStr: String!
+
+[old: AS_HomeVC -> new: AH_VisualDataController] insert  var placeholder_min: Float? = 0.0
+private var launchPadding: Double? = 0.0
+var i_view: Double? = 0.0
+
+[old: AS_QuestionDetailVC -> new: AH_InfoController] insert  var directoryRegisteredChange_dict: [String: Any]?
+var extension__8CachedTabbarDictionary: [String: Any]!
+
+[old: AS_VideoVC -> new: AH_LaunchDiscoverController] insert  private var long_4: Double? = 0.0
+var followerDataDotString: String!
+var has_Bottom: Bool? = false
+private var settingLaunch_dict: [String: Any]?
+
+[old: AS_QuestionListCell -> new: AH_RoomCommentCell] insert  var tabbar_o: Int? = 0
+var filteredUnreadDeviceStr: String!
+var delete_zn: Float? = 0
+
+[old: AS_QuestionListCell -> new: AH_RoomCommentCell] insert  var modelRoom_dictionary: [String: Any]!
+private var changedHttp_Array: [Any]?
+private var createDeletedCapture_string: String?
+
+[old: AS_QuestionAnswerCell -> new: AH_ReleasePersonCell] insert  var visualPadding: Float? = 0
+var isSign: Bool? = false
+
+[old: AS_QuestionAnswerCell -> new: AH_ReleasePersonCell] insert  private var loginPresentingDict: [String: Any]?
+var purchase_max: Float? = 0.0
+
+[old: AS_VideoListCell -> new: AH_AnswerDiscoverCell] insert  var catalogRangeQuestion_string: String?
+var questionMerged_str: String?
+var positionHorizontalBase_str: String!
+var p_center: Float? = 0
+
+[old: AS_VideoListCell -> new: AH_AnswerDiscoverCell] insert  var clear_space: Double? = 0.0
+private var has_Location: Bool? = false
+
+[old: AS_HomeHeaderReusableView -> new: AH_SculptureBaseView] insert  var currentConfiguration_dictionary: [String: Any]?
+var release_os: Bool? = false
+
+[old: AS_VideoCommentView -> new: AH_BlackView] insert  var is_Corner: Bool? = false
+var type_0: Double? = 0.0
+var canIds: Bool? = false
+var tableSpace: Float? = 0.0
+
+[old: AS_VideoCommentView -> new: AH_BlackView] insert  private var release_fg: Float? = 0.0
+private var responseSpace: Double? = 0.0
+var verifyVisualLoading_string: String!
+var questionStore_dict: [String: Any]!
+
+[old: AS_HomeHeaderView -> new: AH_BlackCurrentView] insert  var checkPresenting_list: [Any]!
+private var s_title: Int? = 0
+var idsVerifyPositionString: String?
+private var attachmentVisualArr: [Any]!
+
+[old: AS_QuestionDetailHeaderView -> new: AH_ResourceView] insert  var followersChangedAlphaString: String!
+private var containerMedia_dict: [String: Any]?
+var savedHas_str: String?
+
+[old: AS_HomeCell -> new: AH_SetupNewsCell] insert  var fallback_min: Float? = 0
+var z_width: Double? = 0
+var bindSaved_string: String?
+var enbaleAction: Bool? = false
+
+[old: AS_HomeCell -> new: AH_SetupNewsCell] insert  private var stackInsetPurchase_str: String!
+private var has_Answer: Bool? = false
+
+[old: AS_QuestionListVC -> new: AH_EditMainController] insert  private var avatarsMax: Double? = 0.0
+private var appearance_padding: Double? = 0.0
+private var blue_sum: Int? = 0
+private var window_i: Float? = 0.0
+
+[old: AS_AddQuestionVC -> new: AH_InfoContactController] insert  var blacklistedOffset: Float? = 0.0
+private var resetSize_lxDict: [String: Any]?
+private var ageMin: Double? = 0.0
+var photoClickLayout_map: [String: Any]!
+
+[old: AS_DiscoverVC -> new: AH_HistoryController] insert  private var trimmed_padding: Float? = 0.0
+private var w_manager: Float? = 0.0
+
+[old: AS_DiscoverDetailVC -> new: AH_AvatarInfoController] insert  private var purchasingTabbarPerson_string: String!
+var value_padding: Double? = 0.0
+var category_7iNormalizedBlueArr: [Any]!
+
+[old: AS_DiscoverTimeCell -> new: AH_TabbarUserCell] insert  var emailIndex: Int? = 0
+var canController: Bool? = false
+var restoreMin: Double? = 0
+var make_offset: Double? = 0
+
+[old: AS_DiscoverTimeCell -> new: AH_TabbarUserCell] insert  var ids_size: Float? = 0.0
+var reach_tag: Int? = 0
+
+[old: AS_DiscoverReleaseView -> new: AH_LoginSetupView] insert  var lanApplicationString: String?
+private var names_margin: Float? = 0.0
+private var blackFollowedSendDictionary: [String: Any]?
+
+[old: AS_DiscoverDetailHeaderView -> new: AH_LaunchToolView] insert  private var responseSize: Float? = 0.0
+private var normalizedUserChecked_str: String?
+private var statusMergeNew_sDictionary: [String: Any]!
+
+[old: AS_DiscoverDetailInputView -> new: AH_CurrentView] insert  private var isShared: Bool? = false
+private var scrollDateString: String?
+private var a_height: Bool? = false
+
+[old: AS_DiscoverCommentCell -> new: AH_UserNewsCell] insert  var startSpace: Float? = 0
+var privacy_max: Double? = 0
+var has_Home: Bool? = false
+
+[old: AS_DiscoverCommentCell -> new: AH_UserNewsCell] insert  private var can_Clear: Bool? = false
+private var canCollection: Bool? = false
+
+[old: AS_ChatVC -> new: AH_EmptyController] insert  var participantCenterCollectionDictionary: [String: Any]!
+var namesActionFallback_string: String?
+
+[old: AS_VideoRoomVC -> new: AH_DiscoverController] insert  private var size_oiLoggedString: String?
+var gradientConfirmedMap: [String: Any]?
+
+[old: AS_ChatRoomVC -> new: AH_ContactHistoryController] insert  private var canResponse: Bool? = false
+var formatterBackground_Array: [Any]?
+private var tapBlackDateDict: [String: Any]!
+
+[old: AS_ChatApplyCell -> new: AH_EditRegisterCell] insert  var is_Mic: Bool? = false
+var iconMargin: Float? = 0
+var bar_padding: Float? = 0
+var switch_gs: Bool? = false
+
+[old: AS_ChatApplyCell -> new: AH_EditRegisterCell] insert  var g_manager: Double? = 0.0
+private var scroll_padding: Float? = 0.0
+private var isLike: Bool? = false
+private var avatarsCreateCreatorArr: [Any]!
+
+[old: AS_ChatHistoryCell -> new: AH_InputLoginCell] insert  var micIndex: Int? = 0
+var resolveOffset: Float? = 0
+
+[old: AS_ChatHistoryCell -> new: AH_InputLoginCell] insert  private var canIcon: Bool? = false
+private var styleClosePriceArr: [Any]!
+var default_0e: Double? = 0.0
+
+[old: AS_ChatRoomMessageCell -> new: AH_ReleaseCell] insert  var storeCount: Int? = 0
+var gradient_max: Double? = 0
+
+[old: AS_ChatRoomMessageCell -> new: AH_ReleaseCell] insert  var storeViewsSpacingArray: [Any]?
+private var cancelStorageNormalized_list: [Any]!
+
+[old: AS_ProfileVC -> new: AH_ProfileController] insert  var enbaleAvatar: Bool? = false
+var modeMax: Double? = 0.0
+
+[old: AS_EditVC -> new: AH_MessageController] insert  var animationsCollectionConversatiString: String!
+private var category_bv: Bool? = false
+private var formatSpace: Double? = 0.0
+
+[old: AS_ReportVC -> new: AH_MainController] insert  var targetMessagesUrl_string: String?
+var isControl: Bool? = false
+private var lastOffset: Float? = 0.0
+var chatSize: Double? = 0.0
+
+[old: AS_ContactUsVC -> new: AH_EditLaunchController] insert  var is_Chat: Bool? = false
+var fromHttpString: String?
+private var resultProvider_map: [String: Any]?
+private var canSetting: Bool? = false
+
+[old: AS_BlackListVC -> new: AH_SetupDelegateController] insert  private var mediaFlag: Int? = 0
+private var pathsInputArray: [Any]?
+var input_idx: Int? = 0
+private var tabAgreementString: String!
+
+[old: AS_PersonVC -> new: AH_ExtensionController] insert  private var paddingIdsUpdatesMap: [String: Any]!
+private var name_offset: Double? = 0.0
+var dismiss_margin: Float? = 0.0
+var camera_size: Double? = 0.0
+
+[old: AS_SetupVC -> new: AH_ReusableController] insert  var panel_sum: Int? = 0
+private var category_v7PanelBuilt_dictionary: [String: Any]!
+private var stopMigrate_Array: [Any]?
+private var answerMargin: Float? = 0.0
+
+[old: AS_SetupCell -> new: AH_HistoryVideoCell] insert  private var timeoutCatalog_str: String?
+private var glyphFullList: [Any]!
+private var can_Like: Bool? = false
+private var paths_sum: Int? = 0
+
+[old: AS_PersonHeaderView -> new: AH_SculptureView] insert  private var httpDismissPopular_str: String?
+private var horizontalIdx: Int? = 0
+private var messageMax: Double? = 0.0
+var enbaleMigrate: Bool? = false
+
+[old: AS_BlackListCell -> new: AH_VisualManagerCell] insert  var registered_mark: Int? = 0
+var permissions_tag: Int? = 0
+var stored_min: Double? = 0
+var fansSize: Double? = 0
+
+[old: AS_BlackListCell -> new: AH_VisualManagerCell] insert  private var back_padding: Float? = 0.0
+private var description_g: Double? = 0.0
+
+[old: AS_ReportCell -> new: AH_ReusableCell] insert  private var history_padding: Double? = 0.0
+private var n_manager: Bool? = false
+var sendSetupString: String!
+
+[old: AS_ShopCell -> new: AH_EditMessageCell] insert  var makeSpace: Double? = 0
+var generatorFlag: Int? = 0
+
+[old: AS_ShopCell -> new: AH_EditMessageCell] insert  var canConfirm: Bool? = false
+var messages_count: Int? = 0
+private var followed_offset: Double? = 0.0
+
+[old: AS_ProfileHeaderView -> new: AH_ModityView] insert  var with_j: Float? = 0.0
+private var keyAppearanceString: String?
+var is_Content: Bool? = false
+
+[old: AS_ShopHeaderView -> new: AH_ShopView] insert  var category_x: Double? = 0.0
+private var settingProductActionString: String?
+private var createChangedMic_str: String?
+var discoverPhotoLanString: String!
+
+[old: AS_ShopVC -> new: AH_ManagerController] insert  var type_rgSwitch_re_map: [String: Any]!
+private var enabledAttachmentStr: String!
+var loggedOffset: Float? = 0.0
+private var pending_mark: Int? = 0
+
+[old: AS_LoginVC -> new: AH_ScreenController] insert  var can_Blacklisted: Bool? = false
+var messagesItem_dict: [String: Any]?
+
+[old: AS_InfoVC -> new: AH_PaintDetailController] insert  private var table_max: Double? = 0.0
+var hasApple: Bool? = false
+
+[old: AS_WelcomeVC -> new: AH_NetworkController] insert  private var clearImagesDict: [String: Any]?
+private var micApplyArray: [Any]!
+private var participantChatStr: String?
+var window_yg: Int? = 0
+
+[old: AS_EmptyView -> new: AH_BaseView] insert  var docDisplayMap: [String: Any]!
+var all_count: Int? = 0
+private var is_Creator: Bool? = false
+
+[old: AS_NetworkTool -> new: AH_RoomModity] insert  private var cellImagesStr: String!
+private var permissionsStoredFrom_Array: [Any]?
+
+[old: AS_IAPManager -> new: AH_Black] insert  private var colorSculptureNetwork_str: String!
+private var questionsSize: Double? = 0.0
+
+[old: AS_IAPManager -> new: AH_Black] insert  var likeMax: Float? = 0
+var followingContactClearString: String?
+var price_padding: Double? = 0
+
+[old: AS_CurrentUser -> new: AH_Screen] insert  var horizontalItem_str: String!
+var bottomCommentStr: String?
+var container_min: Double? = 0.0
+private var catalog_offset: Double? = 0.0
+
+[old: AS_PostModel -> new: AH_ShopInput] insert  var bar_padding: Double? = 0
+var fans_margin: Float? = 0
+var appendSize: Double? = 0
+var extension_s: Bool? = false
+
+[old: AS_PostModel -> new: AH_ShopInput] insert  var o_manager: Int? = 0
+var selMin: Double? = 0
+var enbaleRelations: Bool? = false
+var updatesMax: Float? = 0
+
+[old: AS_UserModel -> new: AH_DataNews] insert  var is_Location: Bool? = false
+var rowTag: Int? = 0
+var purchasingMin: Double? = 0
+
+[old: AS_ChatData -> new: AH_AvatarQuestion] insert  var saveMargin: Float? = 0
+var pressSize: Double? = 0
+
+[old: AS_ChatData -> new: AH_AvatarQuestion] insert  var catalogPersonStr: String!
+var stateOffset: Double? = 0
+
+[old: AS_UserData -> new: AH_ModityPost] insert  var subtitle_size: Double? = 0
+var indicatorAvatarStr: String?
+var can_Camera: Bool? = false
+
+[old: AS_UserData -> new: AH_ModityPost] insert  var has_Clear: Bool? = false
+var setupCleanedBase_str: String?
+var unews_min: Double? = 0
+var deletedMark: Int? = 0
+
+[old: AS_QuestionData -> new: AH_Answer] insert  var verify_space: Double? = 0
+var collectionOffset: Float? = 0
+
+[old: AS_QuestionData -> new: AH_Answer] insert  var contactSpace: Double? = 0
+var mediaOffset: Float? = 0
+var incoming_max: Double? = 0
+var dotCount: Int? = 0
+
+[old: AppDelegate -> new: AppDelegate] insert  var historySendString: String?
+private var time_9rFileCommentsArray: [Any]!
+var creator_flag: Int? = 0
+
+[old: AS_LaunchVC -> new: AH_ShopReusableController] insert  var barGlyphPlaceholderStr: String!
+var updatesMargin: Double? = 0.0
+
+[old: AS_BaseVC -> new: AH_HeaderAvatarController] insert  private var credentialSpace: Double? = 0.0
+private var launchInterval_yl_list: [Any]!
+private var centerPanelMakeStr: String!
+
+[old: AS_TabbarVC -> new: AH_DataController] insert  var itemDocFont_string: String!
+var can_Trimmed: Bool? = false
+
+
+
+开始自动加密混淆字符串。。。。。。。
+"https://docs.google.com/document/d/1gnFO7E84sGL7A-R7yBbtor1g4FLMgAy3_beN5pgmhaQ/edit?usp=sharing"
+"https://docs.google.com/document/d/1A2l_np_AOYSnix3vJYM_wKYg7G9RGbGzgg_2tH7QcZQ/edit?usp=sharing"
+"https://docs.google.com/document/d/1gnFO7E84sGL7A-R7yBbtor1g4FLMgAy3_beN5pgmhaQ/edit?usp=sharing"
+"https://docs.google.com/document/d/1A2l_np_AOYSnix3vJYM_wKYg7G9RGbGzgg_2tH7QcZQ/edit?usp=sharing"
+"https://api.fiveukmedia.xyz/hua/pl"
+"https://www.youtube.com/shorts/klV-AfP7vTg?feature=share"
+
+
+开始融合并调用生成的垃圾代码文件函数或者类。。。。。。。
+100%👌
+
+开始扰乱改变函数里面执行顺序。。。。。。。
+100%👌
+
+
+开始插入混淆函数并在现有函数体里面自动插入混淆函数调用语句。。。。。。。
+100%👌
+
+
+开始自动插入头文件混淆函数定义语句。。。。。。。
+100%👌
+
+
+开始生成新混淆源文件。。。。。。。
+100%👌
+
+
+开始自动更新项目配置。。。。。。。
+100%👌

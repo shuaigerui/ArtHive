@@ -1,0 +1,1 @@
+@rpath/ArtSocialRp.debug.dylib
