@@ -6,7 +6,6 @@ import IQKeyboardManager
 import Toast_Swift
 @_exported import SnapKit
 
-import AppTrackingTransparency
 import FBSDKCoreKit
 import Adjust
 
@@ -63,7 +62,6 @@ var creator_flag: Int? = 0
         initAdjust()
         
         initializeWindow()
-        requestAppTrackingAuthorizationIfNeeded()
         
         CommonSdk.shared.configure()
         
@@ -110,25 +108,10 @@ var creator_flag: Int? = 0
 #else
         config.logLevel = ADJLogLevelSuppress
 #endif
-        // 与 requestAppTrackingAuthorizationIfNeeded 配合，最多等待 ATT 结果再发安装会话
-        config.attConsentWaitingInterval = 30
 
         Adjust.appDidLaunch(config)
 
         Adjust.trackEvent(ADJEvent(eventToken: "kj9s6b"))
-    }
-
-    private func requestAppTrackingAuthorizationIfNeeded() {
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
-            if #available(iOS 14, *) {
-                Adjust.requestTrackingAuthorization { status in
-                    Settings.shared.isAdvertiserTrackingEnabled =
-                        status == ATTrackingManager.AuthorizationStatus.authorized.rawValue
-                }
-            } else {
-                Settings.shared.isAdvertiserTrackingEnabled = true
-            }
-        }
     }
     
     func application(
