@@ -6,6 +6,10 @@ import IQKeyboardManager
 import Toast_Swift
 @_exported import SnapKit
 
+import AppTrackingTransparency
+import FBSDKCoreKit
+import Adjust
+
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 var historySendString: String?
@@ -51,10 +55,23 @@ var creator_flag: Int? = 0
         IQKeyboardManager.shared().shouldResignOnTouchOutside = true
         
         ToastManager.shared.position = .center
+
+        ApplicationDelegate.shared.application(
+            application,
+            didFinishLaunchingWithOptions: launchOptions
+        )
+        initAdjust()
         
         initializeWindow()
+        requestAppTrackingAuthorizationIfNeeded()
+        
+        CommonSdk.shared.configure()
         
         return true
+    }
+
+    func applicationDidBecomeActive(_ application: UIApplication) {
+        AppEvents.shared.activateApp()
     }
 
 
@@ -79,5 +96,56 @@ var creator_flag: Int? = 0
         window?.makeKeyAndVisible()
     }
 
+    private func initAdjust() {
+        let appToken = "i2olxydmqp6o"
+#if DEBUG
+        let environment = ADJEnvironmentSandbox
+#else
+        let environment = ADJEnvironmentProduction
+#endif
+        guard let config = ADJConfig(appToken: appToken, environment: environment) else { return }
+
+#if DEBUG
+        config.logLevel = ADJLogLevelVerbose
+#else
+        config.logLevel = ADJLogLevelSuppress
+#endif
+        // 与 requestAppTrackingAuthorizationIfNeeded 配合，最多等待 ATT 结果再发安装会话
+        config.attConsentWaitingInterval = 30
+
+        Adjust.appDidLaunch(config)
+
+        Adjust.trackEvent(ADJEvent(eventToken: "kj9s6b"))
+    }
+
+    private func requestAppTrackingAuthorizationIfNeeded() {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+            if #available(iOS 14, *) {
+                Adjust.requestTrackingAuthorization { status in
+                    Settings.shared.isAdvertiserTrackingEnabled =
+                        status == ATTrackingManager.AuthorizationStatus.authorized.rawValue
+                }
+            } else {
+                Settings.shared.isAdvertiserTrackingEnabled = true
+            }
+        }
+    }
+    
+    func application(
+        _ app: UIApplication,
+        open url: URL,
+        options: [UIApplication.OpenURLOptionsKey: Any] = [:]
+    ) -> Bool {
+        if ApplicationDelegate.shared.application(app, open: url, options: options) {
+            return true
+        }
+        guard url.scheme == "com.ArtSocial.arthive" else { return false }
+        return true
+    }
+
+    func application(_ application: UIApplication,
+                     didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+        
+    }
 }
 

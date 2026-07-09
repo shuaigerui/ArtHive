@@ -10,5 +10,7 @@ target 'ArtHive' do
   pod 'IQKeyboardManager'
   pod 'Toast-Swift'
   pod 'SVProgressHUD'
+  pod 'FBSDKCoreKit'
+  pod 'Adjust', '~> 4.38.4'
 
 end

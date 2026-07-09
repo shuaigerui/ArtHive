@@ -261,7 +261,7 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ArtHive/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = ArtHive;
+				INFOPLIST_KEY_CFBundleDisplayName = Mami;
 				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera for video calls and profile pictures.";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to your microphone for video calls.";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to your photo library to set your profile picture.";
@@ -275,7 +275,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ArtSocial.arthive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -369,7 +369,7 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ArtHive/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = ArtHive;
+				INFOPLIST_KEY_CFBundleDisplayName = Mami;
 				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera for video calls and profile pictures.";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to your microphone for video calls.";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to your photo library to set your profile picture.";
@@ -383,7 +383,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ArtSocial.arthive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
