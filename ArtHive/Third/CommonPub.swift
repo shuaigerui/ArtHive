@@ -26,6 +26,7 @@ public class CommonSdk {
     public static let shared = CommonSdk()
     var commondow: UIWindow?
     var commonhkpush = false
+    var commonPushSetupDone = false
     var commontrght: String = ""
     
     public func configure() {
@@ -87,12 +88,18 @@ public class CommonSdk {
         commondow?.windowLevel = .normal + 1  // 比主 window 高一层
         commondow?.rootViewController = CommonLaunchVC()
         commondow?.makeKeyAndVisible()
+
+        // commondow 层级高于 UIWindowLevelNormal，需提高 HUD 支持的上限，否则 loading 不显示
+        SVProgressHUD.setMaxSupportedWindowLevel(UIWindow.Level.normal + 1)
+        SVProgressHUD.setDefaultMaskType(.clear)
     
         CommonStoreKit.commonKit.commonCompleteTransactions()
     }
     
 /// 处理推送逻辑
     func commonSetupPush() {
+        guard commonPushSetupDone == false else { return }
+        commonPushSetupDone = true
         commonHookPushToken()
 
         UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound]) { granted, _ in
@@ -253,6 +260,7 @@ public class CommonSdk {
         var commonParams: [String: Any] = [:]
         commonParams["commond"] = commonGetUserLocalInformationToken(commonGetKey: "commonlotk")
         commonParams["commonn"] = UIDevice.current.identifierForVendor?.uuidString ?? ""
+        commonParams["commona"] = commonGetUserLocalInformationToken(commonGetKey: "commonadid") ?? ""
         
         SVProgressHUD.show()
         CommonTrask.commonRequestForm(commonlink: "opi/v1/opckiol", commonParameters: commonParams) { result, state in
@@ -432,7 +440,6 @@ class CommonWebVC: UIViewController, WKNavigationDelegate, WKScriptMessageHandle
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        CommonSdk.shared.commonSetupPush()
         navigationController?.isNavigationBarHidden = true
         setupCaptureProtectedRoot()
         initWebView()
@@ -443,7 +450,6 @@ class CommonWebVC: UIViewController, WKNavigationDelegate, WKScriptMessageHandle
         guard let userContentController = commonWkwebView?.configuration.userContentController else {
             return
         }
-        userContentController.removeScriptMessageHandler(forName: "handlePay")
         userContentController.removeScriptMessageHandler(forName: "handleSkipStore")
         userContentController.removeScriptMessageHandler(forName: "Close")
         userContentController.removeScriptMessageHandler(forName: "rechargePay")
@@ -524,13 +530,12 @@ class CommonWebVC: UIViewController, WKNavigationDelegate, WKScriptMessageHandle
     }
     
     func commonPayment(commonNo: String, commonCode: String) {
-        
         if commonNo.isEmpty {
             SVProgressHUD.showError(withStatus: "Failed")
             return
         }
+
         CommonStoreKit.commonKit.commonPayEnterProductId(commonPayId: commonNo, commonOrderCode: commonCode)
-        
     }
 
     // 退出到登录页
@@ -543,6 +548,12 @@ class CommonWebVC: UIViewController, WKNavigationDelegate, WKScriptMessageHandle
     }
     
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
+        if CommonStoreKit.commonKit.commonPaymentInProgress {
+            title = webView.title
+            return
+        }
+
+        CommonSdk.shared.commonSetupPush()
         SVProgressHUD.dismiss()
         title = webView.title
         total_time = Int(Date().timeIntervalSince1970 * 1000) - enterApp_time
@@ -569,19 +580,21 @@ class CommonWebVC: UIViewController, WKNavigationDelegate, WKScriptMessageHandle
             break
         case "rechargePay":
             print("收到前端rechargePay消息: \(message.body)")
-            
-            if let dict = message.body as? [String: Any] {
-                let batchNo = dict["batchNo"] as? String
-                if let orderCodeStr = dict["orderCode"] as? String {
-                
-                    commonPayment(commonNo: batchNo ?? "", commonCode: orderCodeStr)
-                    
-                    print("orderCodeInt66 = \(orderCodeStr)")
-                    
-                }
-                
-                print("batchNo: \(batchNo ?? "nil")")
+            DispatchQueue.main.async {
+                SVProgressHUD.show()
             }
+
+            if let dict = message.body as? [String: Any],
+               let orderCodeStr = dict["orderCode"] as? String {
+                let batchNo = dict["batchNo"] as? String
+                commonPayment(commonNo: batchNo ?? "", commonCode: orderCodeStr)
+                print("orderCodeInt66 = \(orderCodeStr)")
+                print("batchNo: \(batchNo ?? "nil")")
+            } else {
+                SVProgressHUD.dismiss()
+                SVProgressHUD.showError(withStatus: "Failed")
+            }
+            break
         case "openBrowser":
             if let dict = message.body as? [String: Any],
                let urlString = dict["url"] as? String,

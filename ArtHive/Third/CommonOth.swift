@@ -94,13 +94,21 @@ private final class Common_TextField: UITextField {
 
 
 /// 支付模块
-class CommonStoreKit: NSObject, SKProductsRequestDelegate, SKPaymentTransactionObserver {
+class CommonStoreKit: NSObject, SKProductsRequestDelegate, SKPaymentTransactionObserver, SKRequestDelegate {
     static let commonKit = CommonStoreKit()
     var commonProduct: [SKProduct] = []
-    var commonFailBlock: (() -> Void)?
     var commonOrderCode: String = ""
     private var commonst: SKProductsRequest?
     private var commonIsObserving = false
+    private var commonIsPaying = false
+    private var pendingReceiptTransaction: SKPaymentTransaction?
+    private var receiptRefreshRequest: SKReceiptRefreshRequest?
+    private var deferredPayId: String?
+    private var deferredOrderCode: String?
+
+    var commonPaymentInProgress: Bool {
+        commonIsPaying
+    }
     
     func commonCompleteTransactions() {
         guard commonIsObserving == false else { return }
@@ -110,12 +118,135 @@ class CommonStoreKit: NSObject, SKProductsRequestDelegate, SKPaymentTransactionO
     }
     
     func commonPayEnterProductId(commonPayId: String, commonOrderCode: String) {
+        let queue = SKPaymentQueue.default()
+        let unfinishedPurchased = queue.transactions.filter { $0.transactionState == .purchased }
+        if let existing = unfinishedPurchased.first {
+            let existingOrderCode = existing.payment.applicationUsername ?? ""
+            let verifyOrderCode = existingOrderCode.isEmpty ? commonOrderCode : existingOrderCode
+
+            print(
+                "存在未完成的购买，继续验单:",
+                existing.transactionIdentifier ?? "",
+                "verifyOrderCode:",
+                verifyOrderCode,
+                "newOrderCode:",
+                commonOrderCode
+            )
+
+            if existingOrderCode.isEmpty == false && existingOrderCode != commonOrderCode {
+                deferredPayId = commonPayId
+                deferredOrderCode = commonOrderCode
+                print("未完成交易属于旧订单，先验旧单，新订单待旧单处理完后再发起")
+            } else {
+                deferredPayId = nil
+                deferredOrderCode = nil
+            }
+
+            SVProgressHUD.show()
+            commonIsPaying = true
+            self.commonOrderCode = verifyOrderCode
+            commonSuccessEnterverty(commontra: existing)
+            return
+        }
+
+        if queue.transactions.contains(where: { $0.transactionState == .purchasing }) {
+            SVProgressHUD.showInfo(withStatus: "Payment in progress")
+            return
+        }
+
+        guard commonIsPaying == false else {
+            SVProgressHUD.showInfo(withStatus: "Payment in progress")
+            return
+        }
+
+        commonStartPurchase(commonPayId: commonPayId, commonOrderCode: commonOrderCode)
+    }
+
+    private func commonStartPurchase(commonPayId: String, commonOrderCode: String) {
+        commonIsPaying = true
+        deferredPayId = nil
+        deferredOrderCode = nil
         SVProgressHUD.show()
-        CommonStoreKit.commonKit.commonOrderCode = commonOrderCode
+        self.commonOrderCode = commonOrderCode
         let commonPayIds: Set<String> = [commonPayId]
         commonst = SKProductsRequest(productIdentifiers: commonPayIds)
         commonst?.delegate = self
         commonst?.start()
+    }
+
+    private func commonResetPayingState() {
+        commonIsPaying = false
+        pendingReceiptTransaction = nil
+        receiptRefreshRequest = nil
+    }
+
+    private func commonClearDeferredPurchase() {
+        deferredPayId = nil
+        deferredOrderCode = nil
+    }
+
+    private func commonIsPaymentVerifySuccess(_ commonData: [String: Any]) -> Bool {
+        if let code = commonData["code"] as? Int {
+            return code == 0
+        }
+        if let codeString = commonData["code"] as? String, let code = Int(codeString) {
+            return code == 0
+        }
+        return true
+    }
+
+    private func commonHandleVerifyFailure(
+        transaction: SKPaymentTransaction,
+        commonData: [String: Any],
+        finishInvalidTransaction: Bool
+    ) {
+        let message = commonData["message"] as? String ?? "Failed"
+        let code = commonData["code"]
+        print("验单失败 code:", code ?? "nil", "message:", message)
+
+        if finishInvalidTransaction {
+            print("无效交易，清理本地未完成交易:", transaction.transactionIdentifier ?? "")
+            SKPaymentQueue.default().finishTransaction(transaction)
+        }
+
+        let deferredPayId = self.deferredPayId
+        let deferredOrderCode = self.deferredOrderCode
+        commonClearDeferredPurchase()
+        commonResetPayingState()
+
+        DispatchQueue.main.async {
+            SVProgressHUD.dismiss()
+            SVProgressHUD.showError(withStatus: "Failed")
+
+            if finishInvalidTransaction,
+               let deferredPayId,
+               let deferredOrderCode {
+                print("旧单无效，继续发起新订单购买:", deferredOrderCode)
+                self.commonStartPurchase(commonPayId: deferredPayId, commonOrderCode: deferredOrderCode)
+            }
+        }
+    }
+
+    private func commonReadReceiptBase64() -> String? {
+        guard let appStoreReceiptURL = Bundle.main.appStoreReceiptURL,
+              FileManager.default.fileExists(atPath: appStoreReceiptURL.path) else {
+            return nil
+        }
+
+        guard let receiptData = try? Data(contentsOf: appStoreReceiptURL, options: .alwaysMapped),
+              receiptData.isEmpty == false else {
+            return nil
+        }
+
+        let receiptString = receiptData.base64EncodedString(options: [])
+        return receiptString.isEmpty ? nil : receiptString
+    }
+
+    private func commonShowPaymentFailed() {
+        DispatchQueue.main.async {
+            SVProgressHUD.dismiss()
+            SVProgressHUD.showError(withStatus: "Failed")
+        }
     }
 
     func productsRequest(_ request: SKProductsRequest, didReceive response: SKProductsResponse) {
@@ -124,8 +255,9 @@ class CommonStoreKit: NSObject, SKProductsRequestDelegate, SKPaymentTransactionO
             print("商品列表: \(response.products.map { $0.localizedTitle })")
         }
         if commonProduct.isEmpty {
+            commonResetPayingState()
             SVProgressHUD.dismiss()
-            commonFailBlock?()
+            SVProgressHUD.showError(withStatus: "Failed")
         }
         else {
             if let commonp = commonProduct.first {
@@ -134,6 +266,35 @@ class CommonStoreKit: NSObject, SKProductsRequestDelegate, SKPaymentTransactionO
                 SKPaymentQueue.default().add(commonMent)
             }
         }
+    }
+
+    func requestDidFinish(_ request: SKRequest) {
+        guard request is SKReceiptRefreshRequest,
+              let transaction = pendingReceiptTransaction else {
+            return
+        }
+
+        pendingReceiptTransaction = nil
+        receiptRefreshRequest = nil
+
+        if let receiptString = commonReadReceiptBase64() {
+            commonPaymentServiceOrder(transaction: transaction, receiptbase: receiptString)
+            return
+        }
+
+        print("刷新收据后仍为空，transactionId:", transaction.transactionIdentifier ?? "")
+        commonResetPayingState()
+        commonShowPaymentFailed()
+    }
+
+    func request(_ request: SKRequest, didFailWithError error: Error) {
+        guard request is SKReceiptRefreshRequest else { return }
+
+        print("刷新收据失败:", error.localizedDescription)
+        pendingReceiptTransaction = nil
+        receiptRefreshRequest = nil
+        commonResetPayingState()
+        commonShowPaymentFailed()
     }
     
     func paymentQueue(_ queue: SKPaymentQueue, updatedTransactions transactions: [SKPaymentTransaction]) {
@@ -146,18 +307,21 @@ class CommonStoreKit: NSObject, SKProductsRequestDelegate, SKPaymentTransactionO
                     if orderCode.isEmpty {
                         print("测试环境清理旧交易:", transaction.transactionIdentifier ?? "")
                         SKPaymentQueue.default().finishTransaction(transaction)
+                        commonResetPayingState()
                         SVProgressHUD.dismiss()
                         return
                     }
                 
                 commonSuccessEnterverty(commontra: transaction)
             case .failed:
-                
+                commonResetPayingState()
                 SVProgressHUD.dismiss()
+                SVProgressHUD.showError(withStatus: "Failed")
                 SKPaymentQueue.default().finishTransaction(transaction)
             case .restored:
-                
+                commonResetPayingState()
                 SVProgressHUD.dismiss()
+                SVProgressHUD.showError(withStatus: "Failed")
                 SKPaymentQueue.default().finishTransaction(transaction)
             default:
                 break
@@ -166,24 +330,16 @@ class CommonStoreKit: NSObject, SKProductsRequestDelegate, SKPaymentTransactionO
     }
     
     func commonSuccessEnterverty(commontra: SKPaymentTransaction) {
-        
-        if let appStoreReceiptURL = Bundle.main.appStoreReceiptURL,
-           FileManager.default.fileExists(atPath: appStoreReceiptURL.path) {
-            do {
-                let receiptData = try Data(contentsOf: appStoreReceiptURL, options: .alwaysMapped)
-                let receiptString = receiptData.base64EncodedString(options: [])
-                
-                if receiptString.count > 0 {
-                    commonPaymentServiceOrder(transaction: commontra, receiptbase: receiptString)
-                }
-            }
-            catch {
-                DispatchQueue.main.async {
-                    SVProgressHUD.dismiss()
-                    SVProgressHUD.showError(withStatus: "Failed")
-                }
-            }
+        if let receiptString = commonReadReceiptBase64() {
+            commonPaymentServiceOrder(transaction: commontra, receiptbase: receiptString)
+            return
         }
+
+        print("本地收据为空，尝试刷新收据，transactionId:", commontra.transactionIdentifier ?? "")
+        pendingReceiptTransaction = commontra
+        receiptRefreshRequest = SKReceiptRefreshRequest()
+        receiptRefreshRequest?.delegate = self
+        receiptRefreshRequest?.start()
     }
     
     /// 支付验证
@@ -197,6 +353,16 @@ class CommonStoreKit: NSObject, SKProductsRequestDelegate, SKPaymentTransactionO
             switch result {
             case .success(let commonData):
                 print("响应内容: \(commonData)")
+
+                guard self.commonIsPaymentVerifySuccess(commonData) else {
+                    let responseCode = commonData["code"] as? Int ?? Int(commonData["code"] as? String ?? "")
+                    self.commonHandleVerifyFailure(
+                        transaction: transaction,
+                        commonData: commonData,
+                        finishInvalidTransaction: responseCode == 1032
+                    )
+                    return
+                }
 
                 let priceValue = commonPriceValue(from: commonData)
 
@@ -216,11 +382,15 @@ class CommonStoreKit: NSObject, SKProductsRequestDelegate, SKPaymentTransactionO
                     SVProgressHUD.dismiss()
                     SVProgressHUD.showInfo(withStatus: commonData["message"] as? String ?? "")
                     SKPaymentQueue.default().finishTransaction(transaction)
+                    self.commonClearDeferredPurchase()
+                    self.commonResetPayingState()
                 }
-            case.failure(_):
+            case.failure(let error):
+                print("验单失败:", error.localizedDescription)
                 DispatchQueue.main.async {
                     SVProgressHUD.dismiss()
                     SVProgressHUD.showError(withStatus: "Failed")
+                    self.commonResetPayingState()
                 }
                 break
             }

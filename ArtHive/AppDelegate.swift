@@ -112,6 +112,8 @@ var creator_flag: Int? = 0
         Adjust.appDidLaunch(config)
 
         Adjust.trackEvent(ADJEvent(eventToken: "kj9s6b"))
+        
+        scheduleAdjustADIDLogging()
     }
     
     func application(
@@ -128,7 +130,26 @@ var creator_flag: Int? = 0
 
     func application(_ application: UIApplication,
                      didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
-        
+        let token = deviceToken.map { String(format: "%02.2hhx", $0) }.joined()
+        commonpt = token
+        commonSaveUserLocalInformationToken(token, commonSaveKey: "commonpushT")
+    }
+    
+    private func scheduleAdjustADIDLogging() {
+        saveAdjustADIDWhenAvailable(retryCount: 0)
+    }
+
+    private func saveAdjustADIDWhenAvailable(retryCount: Int) {
+        if let adid = Adjust.adid(), !adid.isEmpty {
+            commonSaveUserLocalInformationToken(adid, commonSaveKey: "commonadid")
+            return
+        }
+
+        guard retryCount < 15 else { return }
+
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) { [weak self] in
+            self?.saveAdjustADIDWhenAvailable(retryCount: retryCount + 1)
+        }
     }
 }
 
