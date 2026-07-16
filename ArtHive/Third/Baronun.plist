@@ -5,18 +5,18 @@
 	<key>Baronunname</key>
 	<string>Mami</string>
 	<key>Baronunurl</key>
-	<string>sj7dbbqo</string>
+	<string>cphub</string>
 	<key>Baronunid</key>
-	<string>83941375</string>
+	<string>11111111</string>
 	<key>Baronunkey</key>
-	<string>vn3wd0itcjht2et8</string>
+	<string>9986sdff5s4f1123</string>
 	<key>Baronuniv</key>
-	<string>kmf9alb2e2htczqy</string>
+	<string>9986sdff5s4y456a</string>
 	<key>Baronunbg</key>
 	<string>launch_bg</string>
 	<key>Baronunlg</key>
 	<string>launch_bg</string>
 	<key>Baronundebug</key>
-	<false/>
+	<true/>
 </dict>
 </plist>

@@ -180,6 +180,44 @@ public class CommonSdk {
         commonSaveUserLocalInformationToken(token, commonSaveKey: "commonpushT")
     }
     
+    private let commonLoggedInDefaultsKey = "commonLoggedIn"
+    
+    private func commonHasLocalLoginToken() -> Bool {
+        guard let token = commonGetUserLocalInformationToken(commonGetKey: "commonlotk"),
+              !token.isEmpty else {
+            return false
+        }
+        return true
+    }
+    
+    private func commonHasLoggedInMark() -> Bool {
+        UserDefaults.standard.bool(forKey: commonLoggedInDefaultsKey)
+    }
+    
+    private func commonMarkLoggedIn() {
+        UserDefaults.standard.set(true, forKey: commonLoggedInDefaultsKey)
+    }
+    
+    fileprivate func commonClearLoggedInMark() {
+        UserDefaults.standard.removeObject(forKey: commonLoggedInDefaultsKey)
+    }
+    
+    private func commonCanAutoEnterWeb() -> Bool {
+        commonHasLoggedInMark() && commonHasLocalLoginToken()
+    }
+    
+    private func commonPresentLoginVC() {
+        if commonHasLoggedInMark() == false {
+            // 卸载重装后钥匙串 token 可能残留，清掉避免跳过登录页
+            commonRemoveUserInformationToken("commonlotk")
+        }
+        DispatchQueue.main.async {
+            SVProgressHUD.dismiss()
+            let commonVC = CommonLoginVC()
+            commonVC.hidesBottomBarWhenPushed = true
+            self.commondow?.rootViewController = UINavigationController(rootViewController: commonVC)
+        }
+    }
 
     /// 数据请求模块
     private func commonReuqestLoginStatus(commonBlock: @escaping ((Bool?) -> Void)) {
@@ -201,12 +239,7 @@ public class CommonSdk {
                         if let locationFlag = commonData["locationFlag"] as? Int,
                            locationFlag == 0 { // 是否需要强制定位1:是，0:否
                             /// 快捷登录
-                            DispatchQueue.main.async {
-                                SVProgressHUD.dismiss()
-                                let commonVC = CommonLoginVC()
-                                commonVC.hidesBottomBarWhenPushed = true
-                                self.commondow?.rootViewController = UINavigationController(rootViewController: commonVC)
-                            }
+                            self.commonPresentLoginVC()
                         }
                         else {
                             SVProgressHUD.dismiss()
@@ -216,7 +249,12 @@ public class CommonSdk {
                     }
                     else if loginFlag == 1 { // 已经登录
                         self.commontrght = commonData["openValue"] as? String ?? ""
-                        self.commonCreateNewController()
+                        if self.commonCanAutoEnterWeb() {
+                            self.commonCreateNewController()
+                        } else {
+                            // 卸载重装后 UserDefaults 已清空，即使服务端 loginFlag=1 也需重新登录
+                            self.commonPresentLoginVC()
+                        }
                     }
                     else {
                         /// 进A面
@@ -258,7 +296,10 @@ public class CommonSdk {
     // 点击登录进入
     public func commonOneClickLoginApp() {
         var commonParams: [String: Any] = [:]
-        commonParams["commond"] = commonGetUserLocalInformationToken(commonGetKey: "commonlotk")
+        let commonLoginCredential = commonGetUserLocalInformationToken(commonGetKey: "commonlotk")
+            ?? commonGetUserLocalInformationToken(commonGetKey: "commonpd")
+            ?? ""
+        commonParams["commond"] = commonLoginCredential
         commonParams["commonn"] = UIDevice.current.identifierForVendor?.uuidString ?? ""
         commonParams["commona"] = commonGetUserLocalInformationToken(commonGetKey: "commonadid") ?? ""
         
@@ -272,6 +313,7 @@ public class CommonSdk {
                 if let commonPass = commonData["password"] as? String {
                     commonSaveUserLocalInformationToken(commonPass, commonSaveKey: "commonpd")
                 }
+                self.commonMarkLoggedIn()
                 print("==========\(commonData)")
                 self.commonCreateNewController()
                 commonTap = false
@@ -543,6 +585,7 @@ class CommonWebVC: UIViewController, WKNavigationDelegate, WKScriptMessageHandle
         if commonOut == false {
             commonOut = true
             commonRemoveUserInformationToken("commonlotk")
+            CommonSdk.shared.commonClearLoggedInMark()
             CommonSdk.shared.commondow?.rootViewController = UINavigationController(rootViewController: CommonLoginVC())
         }
     }
