@@ -24,13 +24,7 @@ class CommonTrask {
         commonqe.setValue("application/json", forHTTPHeaderField: "Accept")
         commonqe.httpMethod = "POST"
             
-            if let commondev = commonGetUserLocalInformationToken(commonGetKey: "commondev"),
-               !commondev.isEmpty{
-                commonqe.setValue(commondev, forHTTPHeaderField: "deviceNo")
-            }else {
-                commonSaveUserLocalInformationToken(commonSion ?? "132", commonSaveKey: "commondev")
-                commonqe.setValue(commonSion, forHTTPHeaderField: "deviceNo")
-            }
+            commonqe.setValue(commonPersistentDeviceIdentifier(), forHTTPHeaderField: "deviceNo")
         
         // 测试环境
         commonqe.setValue(Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "", forHTTPHeaderField: "appVersion")

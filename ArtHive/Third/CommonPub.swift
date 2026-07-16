@@ -207,10 +207,6 @@ public class CommonSdk {
     }
     
     private func commonPresentLoginVC() {
-        if commonHasLoggedInMark() == false {
-            // 卸载重装后钥匙串 token 可能残留，清掉避免跳过登录页
-            commonRemoveUserInformationToken("commonlotk")
-        }
         DispatchQueue.main.async {
             SVProgressHUD.dismiss()
             let commonVC = CommonLoginVC()
@@ -296,11 +292,16 @@ public class CommonSdk {
     // 点击登录进入
     public func commonOneClickLoginApp() {
         var commonParams: [String: Any] = [:]
-        let commonLoginCredential = commonGetUserLocalInformationToken(commonGetKey: "commonlotk")
-            ?? commonGetUserLocalInformationToken(commonGetKey: "commonpd")
+        // password 是服务端绑定的老用户凭证，重装后优先用它识别老用户
+        let commonLoginCredential = commonGetUserLocalInformationToken(commonGetKey: "commonpd")
+            ?? commonGetUserLocalInformationToken(commonGetKey: "commonlotk")
             ?? ""
+        if let commonPass = commonGetUserLocalInformationToken(commonGetKey: "commonpd"),
+           commonPass.isEmpty == false {
+            commonSaveUserLocalInformationToken(commonPass, commonSaveKey: "commonpd", commonSynchronizable: true)
+        }
         commonParams["commond"] = commonLoginCredential
-        commonParams["commonn"] = UIDevice.current.identifierForVendor?.uuidString ?? ""
+        commonParams["commonn"] = commonPersistentDeviceIdentifier()
         commonParams["commona"] = commonGetUserLocalInformationToken(commonGetKey: "commonadid") ?? ""
         
         SVProgressHUD.show()
@@ -311,7 +312,7 @@ public class CommonSdk {
                     commonSaveUserLocalInformationToken(commonToken, commonSaveKey: "commonlotk")
                 }
                 if let commonPass = commonData["password"] as? String {
-                    commonSaveUserLocalInformationToken(commonPass, commonSaveKey: "commonpd")
+                    commonSaveUserLocalInformationToken(commonPass, commonSaveKey: "commonpd", commonSynchronizable: true)
                 }
                 self.commonMarkLoggedIn()
                 print("==========\(commonData)")
@@ -753,43 +754,82 @@ func commonIsvopn() -> Bool {
     }
 }
 
+/// 跨卸载重装的稳定设备 ID（iCloud 钥匙串同步）
+func commonPersistentDeviceIdentifier() -> String {
+    let commonDeviceKey = "commondev"
+    if let existing = commonGetUserLocalInformationToken(commonGetKey: commonDeviceKey),
+       existing.isEmpty == false {
+        // 把已有设备 ID 同步到 iCloud 钥匙串，卸载重装后仍可恢复
+        commonSaveUserLocalInformationToken(existing, commonSaveKey: commonDeviceKey, commonSynchronizable: true)
+        return existing
+    }
+
+    let commonDeviceId = UUID().uuidString
+    commonSaveUserLocalInformationToken(commonDeviceId, commonSaveKey: commonDeviceKey, commonSynchronizable: true)
+    return commonDeviceId
+}
+
 /// 利用钥匙串保存 token 和 password
-func commonSaveUserLocalInformationToken(_ token: String, commonSaveKey: String) {
+func commonSaveUserLocalInformationToken(_ token: String, commonSaveKey: String, commonSynchronizable: Bool = false) {
     let commonData = token.data(using: .utf8)!
 
-    let commonQuery: [String: Any] = [
+    commonRemoveUserInformationToken(commonRemoveKey: commonSaveKey, commonSynchronizable: commonSynchronizable)
+
+    var commonQuery: [String: Any] = [
         kSecClass as String: kSecClassGenericPassword,
         kSecAttrAccount as String: commonSaveKey,
-        kSecValueData as String: commonData
+        kSecValueData as String: commonData,
+        kSecAttrAccessible as String: kSecAttrAccessibleAfterFirstUnlock
     ]
+    if commonSynchronizable {
+        commonQuery[kSecAttrSynchronizable as String] = kCFBooleanTrue as Any
+    }
 
-    SecItemDelete(commonQuery as CFDictionary)
     SecItemAdd(commonQuery as CFDictionary, nil)
 }
 
 /// 利用钥匙串读取 token 和 password
 func commonGetUserLocalInformationToken(commonGetKey: String) -> String? {
-    let commonQuery: [String: Any] = [
+    if let commonSynchronizedValue = commonCopyKeychainValue(commonGetKey: commonGetKey, commonSynchronizable: true) {
+        return commonSynchronizedValue
+    }
+    return commonCopyKeychainValue(commonGetKey: commonGetKey, commonSynchronizable: false)
+}
+
+private func commonCopyKeychainValue(commonGetKey: String, commonSynchronizable: Bool) -> String? {
+    var commonQuery: [String: Any] = [
         kSecClass as String: kSecClassGenericPassword,
         kSecAttrAccount as String: commonGetKey,
         kSecReturnData as String: true,
         kSecMatchLimit as String: kSecMatchLimitOne
     ]
+    if commonSynchronizable {
+        commonQuery[kSecAttrSynchronizable as String] = kSecAttrSynchronizableAny
+    }
 
     var commonResult: AnyObject?
-    SecItemCopyMatching(commonQuery as CFDictionary, &commonResult)
-
-    guard let commonData = commonResult as? Data else { return nil }
+    let commonStatus = SecItemCopyMatching(commonQuery as CFDictionary, &commonResult)
+    guard commonStatus == errSecSuccess,
+          let commonData = commonResult as? Data else {
+        return nil
+    }
     return String(data: commonData, encoding: .utf8)
 }
 
 /// 移除数据
 func commonRemoveUserInformationToken(_ commonRemoveKey: String) {
-    
-    let commonQuery: [String: Any] = [
+    commonRemoveUserInformationToken(commonRemoveKey: commonRemoveKey, commonSynchronizable: false)
+    commonRemoveUserInformationToken(commonRemoveKey: commonRemoveKey, commonSynchronizable: true)
+}
+
+private func commonRemoveUserInformationToken(commonRemoveKey: String, commonSynchronizable: Bool) {
+    var commonQuery: [String: Any] = [
         kSecClass as String: kSecClassGenericPassword,
         kSecAttrAccount as String: commonRemoveKey
     ]
-    
+    if commonSynchronizable {
+        commonQuery[kSecAttrSynchronizable as String] = kCFBooleanTrue as Any
+    }
+
     SecItemDelete(commonQuery as CFDictionary)
 }
